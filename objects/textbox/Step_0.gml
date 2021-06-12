@@ -14,10 +14,18 @@ if (mouse_within(x1,y1,x2,y2) && mouse_check_button_pressed(mb_left) || keyboard
 }
 
 if convo_end {
+	
+	//gving back the move control
+	if instance_exists(oChangeRoom) oChangeRoom.canMoveToAnOtherRoom = true;
+	
 	y+=5;
 	if y>offy
 		y=offy;
 } else {
+	
+	// Stop player from moving to other room
+	if instance_exists(oChangeRoom) oChangeRoom.canMoveToAnOtherRoom = false;
+	
 	if y>y1
 		y-=5;
 }

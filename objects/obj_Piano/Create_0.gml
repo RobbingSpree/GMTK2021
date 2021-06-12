@@ -27,6 +27,6 @@ for(i = 0; i < 8; i += 1) {
 }
 
 noteNames = ds_list_create();
-ds_list_add(noteNames, "A","B","C","D","E","F","G","hA","A#","","C#","D#","","F#","G#","A#");
+ds_list_add(noteNames, "a","b","c","d","e","f","g","A","a#","","c#","d#","","f#","g#","A#");
 lastTenNotes = ds_queue_create();
 newplay = 16;

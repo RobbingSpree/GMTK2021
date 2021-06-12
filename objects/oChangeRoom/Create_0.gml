@@ -87,7 +87,7 @@ _i--;
 
 //0
 global.ghostPuzzleArray[_i] = ds_map_create();
-ds_map_add(_arr[_i], "activated", false);
+ds_map_add(_arr[_i], "activated", true);
 ds_map_add(_arr[_i], "horTarg", 64 + (4 * 128));
 ds_map_add(_arr[_i], "vrtTarg", 68);
 ds_map_add(_arr[_i], "inPlace", false);

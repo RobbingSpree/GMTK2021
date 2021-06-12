@@ -35,6 +35,9 @@
         {"properties":[
             {"propertyId":{"name":"collectNumber","path":"objects/obj_Ghost_puzzle_piece_collect/obj_Ghost_puzzle_piece_collect.yy",},"objectId":{"name":"obj_Ghost_puzzle_piece_collect","path":"objects/obj_Ghost_puzzle_piece_collect/obj_Ghost_puzzle_piece_collect.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_Ghost_puzzle_piece_collect","path":"objects/obj_Ghost_puzzle_piece_collect/obj_Ghost_puzzle_piece_collect.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":384.0,"resourceVersion":"1.0","name":"inst_36369F29","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"collectNumber","path":"objects/obj_Ghost_puzzle_piece_collect/obj_Ghost_puzzle_piece_collect.yy",},"objectId":{"name":"obj_Ghost_puzzle_piece_collect","path":"objects/obj_Ghost_puzzle_piece_collect/obj_Ghost_puzzle_piece_collect.yy",},"value":"7","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"obj_Ghost_puzzle_piece_collect","path":"objects/obj_Ghost_puzzle_piece_collect/obj_Ghost_puzzle_piece_collect.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":960.0,"y":960.0,"resourceVersion":"1.0","name":"inst_5771E941","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_1","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_half","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
@@ -53,6 +56,7 @@
     {"name":"inst_7CE2EDFF","path":"rooms/ExploreRoom/ExploreRoom.yy",},
     {"name":"inst_C9DEA86","path":"rooms/ExploreRoom/ExploreRoom.yy",},
     {"name":"inst_36369F29","path":"rooms/ExploreRoom/ExploreRoom.yy",},
+    {"name":"inst_5771E941","path":"rooms/ExploreRoom/ExploreRoom.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

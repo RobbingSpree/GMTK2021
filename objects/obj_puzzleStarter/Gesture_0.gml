@@ -3,4 +3,5 @@
 
 //var newPuzzle = instance_create_layer(room_width/2, room_height/2, "Instances_half", puzzle_screen);
 global.return_to = room;
-room_goto(load_puzzle);
+goto_effect(load_puzzle);
+

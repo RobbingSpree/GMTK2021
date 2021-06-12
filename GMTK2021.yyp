@@ -1,6 +1,7 @@
 {
   "resources": [
 <<<<<<< HEAD
+<<<<<<< HEAD
     {"id":{"name":"obj_exit","path":"objects/obj_exit/obj_exit.yy",},"order":1,},
     {"id":{"name":"sfx_win","path":"sounds/sfx_win/sfx_win.yy",},"order":0,},
     {"id":{"name":"puzzle_screen","path":"objects/puzzle_screen/puzzle_screen.yy",},"order":0,},
@@ -18,6 +19,8 @@
     {"id":{"name":"dialog_holder","path":"objects/dialog_holder/dialog_holder.yy",},"order":0,},
     {"id":{"name":"defont","path":"fonts/defont/defont.yy",},"order":0,},
 >>>>>>> dialog
+=======
+>>>>>>> parent of 6e62c6c (puzzleRoom)
 =======
 >>>>>>> parent of 6e62c6c (puzzleRoom)
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},

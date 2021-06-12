@@ -3,11 +3,11 @@
 x1=room_width/5; //left edge of textbox
 y1=y; //top edge of textbox
 x2=room_width/5*4; //right edge of textbox
-y2=y+200; //bottom edge of textbox
+y2=y+150; //bottom edge of textbox
 x=x1; //jump to position
 y=y1; //jump to poition
 xscale = 11;
-yscale = 4;
+yscale = 3;
 
 offy = room_height +30;
 

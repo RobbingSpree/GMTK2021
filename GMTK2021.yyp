@@ -21,6 +21,7 @@
     {"id":{"name":"dialog_box_spr","path":"sprites/dialog_box_spr/dialog_box_spr.yy",},"order":4,},
     {"id":{"name":"spr_Puzzle","path":"sprites/spr_Puzzle/spr_Puzzle.yy",},"order":2,},
     {"id":{"name":"sArrow","path":"sprites/sArrow/sArrow.yy",},"order":5,},
+    {"id":{"name":"Obj_spectralgoop","path":"objects/Obj_spectralgoop/Obj_spectralgoop.yy",},"order":7,},
     {"id":{"name":"spr_exitButton","path":"sprites/spr_exitButton/spr_exitButton.yy",},"order":1,},
     {"id":{"name":"bckgr_Puzzle","path":"sprites/bckgr_Puzzle/bckgr_Puzzle.yy",},"order":0,},
     {"id":{"name":"PuzzleRoom","path":"rooms/PuzzleRoom/PuzzleRoom.yy",},"order":1,},

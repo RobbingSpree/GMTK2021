@@ -61,3 +61,12 @@ if mouse_check_button(mb_right) && hover {
 }
 
 image_angle = ang;
+
+if abs(x-sx) <10 
+	x = sx;
+if abs(y-sy) <10 
+	y = sy;
+if ang == sa && y == sy && x == sx
+	solved = true;
+else 
+	solved = false;

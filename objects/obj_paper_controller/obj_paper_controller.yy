@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_letter_outline",
+    "path": "sprites/spr_letter_outline/spr_letter_outline.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

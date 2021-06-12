@@ -9,7 +9,7 @@ if obj_paper_controller.focus == self {
 	draw_set_color(c_white);
 }
 draw_self();
-draw_set_color(c_black);
+draw_set_color(c_red);
 draw_text(x,y,ang);
 draw_text(x,y+20,x);
 draw_text(x,y+40,y);

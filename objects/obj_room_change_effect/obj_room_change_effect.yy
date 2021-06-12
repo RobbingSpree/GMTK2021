@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "room_change_effect",
+  "name": "obj_room_change_effect",
   "tags": [],
   "resourceType": "GMObject",
 }

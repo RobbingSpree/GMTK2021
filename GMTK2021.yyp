@@ -18,6 +18,8 @@
     {"id":{"name":"dialog_holder","path":"objects/dialog_holder/dialog_holder.yy",},"order":0,},
     {"id":{"name":"defont","path":"fonts/defont/defont.yy",},"order":0,},
 >>>>>>> dialog
+=======
+>>>>>>> parent of 6e62c6c (puzzleRoom)
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -40,7 +42,6 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"PuzzleRoom","path":"rooms/PuzzleRoom/PuzzleRoom.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

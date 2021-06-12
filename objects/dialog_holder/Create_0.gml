@@ -23,6 +23,7 @@ for (var i=0; i<puz.piano+1; i++)
 _script = [];//the entier script
 last_line = 5; //magic number, total number of lines in script, can get from height of the csv import but it can have weird extra values
 current_line = 1;
+convo_end = false;
 //import script into game
 csv_to_dialog("Script.csv");
 

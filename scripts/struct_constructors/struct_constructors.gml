@@ -19,7 +19,7 @@ function line() constructor{
 			global.scene = move_to;
 		//advance scene or end scene
 		var i = dialog_holder.current_line;
-		if !scene_end 
+		if !scene_end && i < dialog_holder.last_line
 			load_next_text();
 		else {			
 			//release move lock

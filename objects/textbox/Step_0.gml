@@ -2,11 +2,16 @@
 
 if (mouse_within(x1,y1,x2,y2) && mouse_check_button_pressed(mb_left) || keyboard_check_pressed(vk_space)) && !convo_end 
 {
-	if cutoff >= string_length(str)-1 && !question
+	if cutoff >= string_length(str)-1 
 	{
 			cutoff =0; //number of characters to not draw at end of string if still animating text appearing
 			instant = false; //reset flag so next line animates if this one was skipped
-			dialog_holder._script[dialog_holder.current_line].next()
+			if dialog_holder.current_line < dialog_holder.last_line
+				dialog_holder._script[dialog_holder.current_line].next();
+			else {
+				convo_end = true;
+				str = "";
+			}
 		} else {
 			instant = false;
 			cutoff = string_length(str);
@@ -14,7 +19,7 @@ if (mouse_within(x1,y1,x2,y2) && mouse_check_button_pressed(mb_left) || keyboard
 }
 
 if convo_end {
-	
+	dialog_holder.convo_end = true;
 	//gving back the move control
 	if instance_exists(oChangeRoom) oChangeRoom.canMoveToAnOtherRoom = true;
 	

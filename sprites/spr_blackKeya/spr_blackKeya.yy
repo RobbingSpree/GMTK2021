@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "piano",
+    "path": "folders/Sprites/Sprites For Puzzles/piano.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_blackKeya",

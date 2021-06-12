@@ -113,8 +113,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Torn Paper",
+    "path": "folders/Sprites/Sprites For Puzzles/Torn Paper.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_triangle",

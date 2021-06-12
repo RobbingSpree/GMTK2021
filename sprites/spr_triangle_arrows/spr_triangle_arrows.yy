@@ -2,7 +2,7 @@
   "bboxMode": 0,
   "collisionKind": 0,
   "type": 0,
-  "origin": 9,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -25,12 +25,10 @@
   "gridY": 25,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"dc0cd906-b080-4cc5-8541-cbc817aef6c5","path":"sprites/spr_triangle_arrows/spr_triangle_arrows.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dc0cd906-b080-4cc5-8541-cbc817aef6c5","path":"sprites/spr_triangle_arrows/spr_triangle_arrows.yy",},"LayerId":{"name":"6e31ed28-7a14-422c-91bf-519e1bca1255","path":"sprites/spr_triangle_arrows/spr_triangle_arrows.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"dc0cd906-b080-4cc5-8541-cbc817aef6c5","path":"sprites/spr_triangle_arrows/spr_triangle_arrows.yy",},"LayerId":{"name":"ba8162cc-494d-4526-9cb5-49a7d19072a3","path":"sprites/spr_triangle_arrows/spr_triangle_arrows.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_triangle_arrows","path":"sprites/spr_triangle_arrows/spr_triangle_arrows.yy",},"resourceVersion":"1.0","name":"dc0cd906-b080-4cc5-8541-cbc817aef6c5","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"f5e4e8a8-ba48-4bd8-be39-946cb150a4e2","path":"sprites/spr_triangle_arrows/spr_triangle_arrows.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"f5e4e8a8-ba48-4bd8-be39-946cb150a4e2","path":"sprites/spr_triangle_arrows/spr_triangle_arrows.yy",},"LayerId":{"name":"ba8162cc-494d-4526-9cb5-49a7d19072a3","path":"sprites/spr_triangle_arrows/spr_triangle_arrows.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"f5e4e8a8-ba48-4bd8-be39-946cb150a4e2","path":"sprites/spr_triangle_arrows/spr_triangle_arrows.yy",},"LayerId":{"name":"6e31ed28-7a14-422c-91bf-519e1bca1255","path":"sprites/spr_triangle_arrows/spr_triangle_arrows.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_triangle_arrows","path":"sprites/spr_triangle_arrows/spr_triangle_arrows.yy",},"resourceVersion":"1.0","name":"f5e4e8a8-ba48-4bd8-be39-946cb150a4e2","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -60,8 +58,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 37,
-    "yorigin": 111,
+    "xorigin": 75,
+    "yorigin": 75,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_triangle_arrows","path":"sprites/spr_triangle_arrows/spr_triangle_arrows.yy",},

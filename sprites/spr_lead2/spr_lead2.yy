@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "wires",
+    "path": "folders/Sprites/Sprites For Puzzles/wires.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_lead2",

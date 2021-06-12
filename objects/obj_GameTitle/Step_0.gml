@@ -5,7 +5,10 @@ image_alpha += 0.005;
 
 if(image_alpha >= 0.8)
 {
-	instance_create_layer(0, 0, "Instances", titleController);
+	if mouse_check_button_released(mb_left)
+		goto_effect(ExploreRoom);
+	if keyboard_check_released(vk_space)
+		goto_effect(Credits);
 }
 
 if(image_alpha < 0.2)
@@ -16,6 +19,6 @@ if(image_alpha < 0.2)
 	
 	randang = irandom(360);
 
-	var newgoop = instance_create_layer(x + randx, y + randy, "Instances", Obj_spectralgoop);
+	var newgoop = instance_create_layer(x + randx, y + randy, "Instances", obj_spectralgoop);
 	newgoop.ang = randang;
 }

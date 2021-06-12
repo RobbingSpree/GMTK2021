@@ -14,9 +14,13 @@
   ],
   "layers": [
     {"instances":[
+        {"properties":[],"isDnd":false,"objectId":{"name":"textbox","path":"objects/textbox/textbox.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":736.0,"resourceVersion":"1.0","name":"inst_454FA840","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"load_puzzle","path":"objects/obj_puzzleStarter/obj_puzzleStarter.yy",},"objectId":{"name":"obj_puzzleStarter","path":"objects/obj_puzzleStarter/obj_puzzleStarter.yy",},"value":"TornLetter","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"obj_puzzleStarter","path":"objects/obj_puzzleStarter/obj_puzzleStarter.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":128.0,"resourceVersion":"1.0","name":"inst_6A0E8EC0","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"load_puzzle","path":"objects/obj_puzzleStarter/obj_puzzleStarter.yy",},"objectId":{"name":"obj_puzzleStarter","path":"objects/obj_puzzleStarter/obj_puzzleStarter.yy",},"value":"PianoPuzzle","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"obj_puzzleStarter","path":"objects/obj_puzzleStarter/obj_puzzleStarter.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":128.0,"resourceVersion":"1.0","name":"inst_6A0E8EC0","tags":[],"resourceType":"GMRInstance",},
+          ],"isDnd":false,"objectId":{"name":"obj_puzzleStarter","path":"objects/obj_puzzleStarter/obj_puzzleStarter.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":832.0,"y":288.0,"resourceVersion":"1.0","name":"inst_CE58F4F","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_1","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_half","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
@@ -26,7 +30,9 @@
   "creationCodeFile": "${project_dir}/rooms/ExploreRoom/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
+    {"name":"inst_454FA840","path":"rooms/ExploreRoom/ExploreRoom.yy",},
     {"name":"inst_6A0E8EC0","path":"rooms/ExploreRoom/ExploreRoom.yy",},
+    {"name":"inst_CE58F4F","path":"rooms/ExploreRoom/ExploreRoom.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

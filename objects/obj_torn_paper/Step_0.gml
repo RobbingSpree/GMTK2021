@@ -13,6 +13,7 @@ if mouse_check_button_released(mb_left) {
 	}
 	
 	moved = false;
+	spin = false;
 	count = 0;
 }
 
@@ -36,6 +37,7 @@ if mouse_check_button(mb_left) && hover {
 		
 			} else {
 				ang += unit;
+				spin = true;
 				count = 0;
 			}
 		}
@@ -55,6 +57,7 @@ if mouse_check_button(mb_right) && hover {
 		
 			} else {
 				ang -= unit;
+				spin = true;
 				count = 0;
 			}
 		}
@@ -62,11 +65,12 @@ if mouse_check_button(mb_right) && hover {
 
 image_angle = ang;
 
-if abs(x-sx) <10 
+if abs(x-sx) <1000 
 	x = sx;
-if abs(y-sy) <10 
+if abs(y-sy) <1000
 	y = sy;
-if ang == sa && y == sy && x == sx
+if y == sy && x == sx { //&&ang == sa &&
 	solved = true;
-else 
+	ang = sa;
+} else 
 	solved = false;

@@ -3,6 +3,7 @@
 ang = 0;
 index = 0;
 moved = false;
+spin = false;
 sx = 0;
 sy = 0;
 sa = 0;

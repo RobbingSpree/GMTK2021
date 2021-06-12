@@ -15,10 +15,11 @@ for (var i=0; i<12; i++) {
 	piece.ang = irandom(8)*45;
 	piece.index = i;
 	piece.image_index = i;
-	sx = x+solved_x[i]*75;
-	sy = y+solved_y[i]*75;
-	sa = solved_angles[i];
+	piece.sx = x+(solved_x[i]*75)+35;
+	piece.sy = y+(solved_y[i]*75)+35;
+	piece.sa = solved_angles[i];
 }
 
-
-
+check_loop = 15;
+check = 0;
+check_count = 0;

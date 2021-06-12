@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sfx_win.mp3",
-  "duration": 29.7846,
+  "soundFile": "key_g4.wav",
+  "duration": 0.888628,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sfx_win",
+  "name": "key_g4",
   "tags": [],
   "resourceType": "GMSound",
 }

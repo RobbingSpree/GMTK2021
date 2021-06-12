@@ -7,3 +7,12 @@ if(image_alpha >= 0.8)
 {
 	instance_create_layer(0, 0, "Instances", titleController);
 }
+
+if(image_alpha < 0.2)
+{
+	randx = (random_range(-100, 100));
+
+	randy = (random_range(-100, 100));
+
+	var newgoop = instance_create_layer(x + randx, y + randy, "Instances", Obj_spectralgoop);
+}

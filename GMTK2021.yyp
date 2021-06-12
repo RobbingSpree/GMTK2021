@@ -1,9 +1,14 @@
 {
   "resources": [
     {"id":{"name":"obj_exit","path":"objects/obj_exit/obj_exit.yy",},"order":1,},
+    {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},"order":15,},
+    {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},"order":3,},
+    {"id":{"name":"titleController","path":"objects/titleController/titleController.yy",},"order":4,},
+    {"id":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},"order":2,},
     {"id":{"name":"sfx_win","path":"sounds/sfx_win/sfx_win.yy",},"order":0,},
     {"id":{"name":"puzzle_screen","path":"objects/puzzle_screen/puzzle_screen.yy",},"order":0,},
     {"id":{"name":"obj_puzzleStarter","path":"objects/obj_puzzleStarter/obj_puzzleStarter.yy",},"order":2,},
+    {"id":{"name":"obj_GameTitle","path":"objects/obj_GameTitle/obj_GameTitle.yy",},"order":3,},
     {"id":{"name":"spr_Puzzle","path":"sprites/spr_Puzzle/spr_Puzzle.yy",},"order":2,},
     {"id":{"name":"spr_exitButton","path":"sprites/spr_exitButton/spr_exitButton.yy",},"order":1,},
     {"id":{"name":"bckgr_Puzzle","path":"sprites/bckgr_Puzzle/bckgr_Puzzle.yy",},"order":0,},
@@ -29,6 +34,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"PuzzleRoom","path":"rooms/PuzzleRoom/PuzzleRoom.yy",},},
   ],

@@ -1,0 +1,882 @@
+You are using YYP Maker v1.1.2, released in 11-04-2021
+
+
+
+[12-06-2021 23:38:57] Initialized GameMaker Project: GMTK2021.yyp
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/animcurves
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/datafiles
+[12-06-2021 23:38:57] Checking Script.csv
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/extensions
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/fonts
+[12-06-2021 23:38:57] Checking defont
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/fonts/defont
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/fonts/defont
+[12-06-2021 23:38:57] Checking defont.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/fonts/defont/defont.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/fonts/defont/defont.yy
+[12-06-2021 23:38:57] Par: "folders/Fonts" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/fonts/defont/defont.yy"
+[12-06-2021 23:38:57] Found Font: defont
+[12-06-2021 23:38:57] Checking defont.png
+[12-06-2021 23:38:57] Checking defont.old.yy
+[12-06-2021 23:38:57] Trash file: defont.old.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking defont.old.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/notes
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects
+[12-06-2021 23:38:57] Checking titleController
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/titleController
+[12-06-2021 23:38:57] Checking textbox
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/textbox
+[12-06-2021 23:38:57] Checking room_change_effect
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/room_change_effect
+[12-06-2021 23:38:57] Checking puzzle_screen
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/puzzle_screen
+[12-06-2021 23:38:57] Checking oChangeRoom
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/oChangeRoom
+[12-06-2021 23:38:57] Checking ochangerom
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/ochangerom
+[12-06-2021 23:38:57] Checking obj_spectralgoop
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_spectralgoop
+[12-06-2021 23:38:57] Checking obj_puzzleStarter
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_puzzleStarter
+[12-06-2021 23:38:57] Checking obj_pianoWin
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_pianoWin
+[12-06-2021 23:38:57] Checking obj_pianoKey
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_pianoKey
+[12-06-2021 23:38:57] Checking obj_Piano
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_Piano
+[12-06-2021 23:38:57] Checking obj_GameTitle
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_GameTitle
+[12-06-2021 23:38:57] Checking obj_exit
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_exit
+[12-06-2021 23:38:57] Checking dialog_holder
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/dialog_holder
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/dialog_holder
+[12-06-2021 23:38:57] Checking Draw_0.gml
+[12-06-2021 23:38:57] Checking dialog_holder.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/dialog_holder/dialog_holder.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/dialog_holder/dialog_holder.yy
+[12-06-2021 23:38:57] Par: "folders/Objects" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/dialog_holder/dialog_holder.yy"
+[12-06-2021 23:38:57] Found Object: dialog_holder
+[12-06-2021 23:38:57] Checking Create_0.gml
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_exit
+[12-06-2021 23:38:57] Checking obj_exit.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_exit/obj_exit.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_exit/obj_exit.yy
+[12-06-2021 23:38:57] Par: "folders/Objects" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_exit/obj_exit.yy"
+[12-06-2021 23:38:57] Found Object: obj_exit
+[12-06-2021 23:38:57] Checking Gesture_0.gml
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_GameTitle
+[12-06-2021 23:38:57] Checking Step_0.gml.dnd
+[12-06-2021 23:38:57] Checking Step_0.gml
+[12-06-2021 23:38:57] Checking obj_GameTitle.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_GameTitle/obj_GameTitle.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_GameTitle/obj_GameTitle.yy
+[12-06-2021 23:38:57] Par: "folders/Objects" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_GameTitle/obj_GameTitle.yy"
+[12-06-2021 23:38:57] Found Object: obj_GameTitle
+[12-06-2021 23:38:57] Checking Create_0.gml.dnd
+[12-06-2021 23:38:57] Checking Create_0.gml
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_Piano
+[12-06-2021 23:38:57] Checking Step_0.gml
+[12-06-2021 23:38:57] Checking obj_Piano.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_Piano/obj_Piano.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_Piano/obj_Piano.yy
+[12-06-2021 23:38:57] Par: "folders/Objects" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_Piano/obj_Piano.yy"
+[12-06-2021 23:38:57] Found Object: obj_Piano
+[12-06-2021 23:38:57] Checking Draw_0.gml
+[12-06-2021 23:38:57] Checking Create_0.gml
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_pianoKey
+[12-06-2021 23:38:57] Checking Step_0.gml
+[12-06-2021 23:38:57] Checking obj_pianoKey.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_pianoKey/obj_pianoKey.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_pianoKey/obj_pianoKey.yy
+[12-06-2021 23:38:57] Par: "folders/Objects" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_pianoKey/obj_pianoKey.yy"
+[12-06-2021 23:38:57] Found Object: obj_pianoKey
+[12-06-2021 23:38:57] Checking Mouse_4.gml
+[12-06-2021 23:38:57] Checking Draw_0.gml.dnd
+[12-06-2021 23:38:57] Checking Draw_0.gml
+[12-06-2021 23:38:57] Checking Create_0.gml
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_pianoWin
+[12-06-2021 23:38:57] Checking obj_pianoWin.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_pianoWin/obj_pianoWin.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_pianoWin/obj_pianoWin.yy
+[12-06-2021 23:38:57] Par: "folders/Objects" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_pianoWin/obj_pianoWin.yy"
+[12-06-2021 23:38:57] Found Object: obj_pianoWin
+[12-06-2021 23:38:57] Checking Draw_0.gml
+[12-06-2021 23:38:57] Checking Create_0.gml.dnd
+[12-06-2021 23:38:57] Checking Create_0.gml
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_puzzleStarter
+[12-06-2021 23:38:57] Checking obj_puzzleStarter.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_puzzleStarter/obj_puzzleStarter.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_puzzleStarter/obj_puzzleStarter.yy
+[12-06-2021 23:38:57] Par: "folders/Objects" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_puzzleStarter/obj_puzzleStarter.yy"
+[12-06-2021 23:38:57] Found Object: obj_puzzleStarter
+[12-06-2021 23:38:57] Checking Gesture_0.gml
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/obj_spectralgoop
+[12-06-2021 23:38:57] Checking Step_0.gml
+[12-06-2021 23:38:57] Checking Obj_spectralgoop.yy
+[12-06-2021 23:38:57] Trash file: Obj_spectralgoop.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking Create_0.gml.dnd
+[12-06-2021 23:38:57] Checking Create_0.gml
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/ochangerom
+[12-06-2021 23:38:57] Checking Step_0.gml
+[12-06-2021 23:38:57] Checking oChangeRoom.yy
+[12-06-2021 23:38:57] Trash file: oChangeRoom.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking Draw_0.gml
+[12-06-2021 23:38:57] Checking Create_0.gml
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/oChangeRoom
+[12-06-2021 23:38:57] Checking Step_0.gml
+[12-06-2021 23:38:57] Checking oChangeRoom.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/oChangeRoom/oChangeRoom.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/oChangeRoom/oChangeRoom.yy
+[12-06-2021 23:38:57] Par: "folders/Objects/Change room" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/oChangeRoom/oChangeRoom.yy"
+[12-06-2021 23:38:57] Found Object: oChangeRoom
+[12-06-2021 23:38:57] Checking Draw_0.gml
+[12-06-2021 23:38:57] Checking Create_0.gml
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/puzzle_screen
+[12-06-2021 23:38:57] Checking puzzle_screen.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/puzzle_screen/puzzle_screen.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/puzzle_screen/puzzle_screen.yy
+[12-06-2021 23:38:57] Par: "folders/Objects" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/puzzle_screen/puzzle_screen.yy"
+[12-06-2021 23:38:57] Found Object: puzzle_screen
+[12-06-2021 23:38:57] Checking Create_0.gml
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/room_change_effect
+[12-06-2021 23:38:57] Checking Step_0.gml
+[12-06-2021 23:38:57] Checking room_change_effect.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/room_change_effect/room_change_effect.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/room_change_effect/room_change_effect.yy
+[12-06-2021 23:38:57] Par: "folders/Objects" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/room_change_effect/room_change_effect.yy"
+[12-06-2021 23:38:57] Found Object: room_change_effect
+[12-06-2021 23:38:57] Checking Other_4.gml
+[12-06-2021 23:38:57] Checking Draw_73.gml
+[12-06-2021 23:38:57] Checking Create_0.gml
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/textbox
+[12-06-2021 23:38:57] Checking textbox.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/textbox/textbox.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/textbox/textbox.yy
+[12-06-2021 23:38:57] Par: "folders/Objects" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/textbox/textbox.yy"
+[12-06-2021 23:38:57] Found Object: textbox
+[12-06-2021 23:38:57] Checking Step_0.gml
+[12-06-2021 23:38:57] Checking Draw_0.gml
+[12-06-2021 23:38:57] Checking Create_0.gml
+[12-06-2021 23:38:57] Checking Alarm_0.gml
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/titleController
+[12-06-2021 23:38:57] Checking titleController.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/titleController/titleController.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/titleController/titleController.yy
+[12-06-2021 23:38:57] Par: "folders/Objects" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/objects/titleController/titleController.yy"
+[12-06-2021 23:38:57] Found Object: titleController
+[12-06-2021 23:38:57] Checking Mouse_53.gml
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options
+[12-06-2021 23:38:57] Checking windows
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/windows
+[12-06-2021 23:38:57] Checking tvos
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/tvos
+[12-06-2021 23:38:57] Checking main
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/main
+[12-06-2021 23:38:57] Checking mac
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/mac
+[12-06-2021 23:38:57] Checking linux
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/linux
+[12-06-2021 23:38:57] Checking ios
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/ios
+[12-06-2021 23:38:57] Checking html5
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/html5
+[12-06-2021 23:38:57] Checking android
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/android
+[12-06-2021 23:38:57] Checking amazonfire
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/amazonfire
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/amazonfire
+[12-06-2021 23:38:57] Checking options_amazonfire.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/amazonfire/options_amazonfire.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/amazonfire/options_amazonfire.yy
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/android
+[12-06-2021 23:38:57] Checking options_android.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/android/options_android.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/android/options_android.yy
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/html5
+[12-06-2021 23:38:57] Checking options_html5.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/html5/options_html5.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/html5/options_html5.yy
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/ios
+[12-06-2021 23:38:57] Checking options_ios.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/ios/options_ios.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/ios/options_ios.yy
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/linux
+[12-06-2021 23:38:57] Checking options_linux.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/linux/options_linux.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/linux/options_linux.yy
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/mac
+[12-06-2021 23:38:57] Checking options_mac.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/mac/options_mac.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/mac/options_mac.yy
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/main
+[12-06-2021 23:38:57] Checking options_main.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/main/options_main.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/main/options_main.yy
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/tvos
+[12-06-2021 23:38:57] Checking options_tvos.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/tvos/options_tvos.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/tvos/options_tvos.yy
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/windows
+[12-06-2021 23:38:57] Checking options_windows.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/windows/options_windows.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/options/windows/options_windows.yy
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/paths
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/rooms
+[12-06-2021 23:38:57] Checking TitleScreen
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/rooms/TitleScreen
+[12-06-2021 23:38:57] Checking Room1
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/rooms/Room1
+[12-06-2021 23:38:57] Checking PuzzleRoom
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/rooms/PuzzleRoom
+[12-06-2021 23:38:57] Checking PianoPuzzle
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/rooms/PianoPuzzle
+[12-06-2021 23:38:57] Checking ExploreRoom
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/rooms/ExploreRoom
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/rooms/ExploreRoom
+[12-06-2021 23:38:57] Checking RoomCreationCode.gml
+[12-06-2021 23:38:57] Checking PuzzleRoom.yy
+[12-06-2021 23:38:57] Trash file: PuzzleRoom.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking ExploreRoom.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/rooms/ExploreRoom/ExploreRoom.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/rooms/ExploreRoom/ExploreRoom.yy
+[12-06-2021 23:38:57] Par: "folders/Rooms" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/rooms/ExploreRoom/ExploreRoom.yy"
+[12-06-2021 23:38:57] Found Room: ExploreRoom
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/rooms/PianoPuzzle
+[12-06-2021 23:38:57] Checking PianoPuzzle.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/rooms/PianoPuzzle/PianoPuzzle.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/rooms/PianoPuzzle/PianoPuzzle.yy
+[12-06-2021 23:38:57] Par: "folders/Rooms" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/rooms/PianoPuzzle/PianoPuzzle.yy"
+[12-06-2021 23:38:57] Found Room: PianoPuzzle
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/rooms/PuzzleRoom
+[12-06-2021 23:38:57] Checking PuzzleRoom.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/rooms/PuzzleRoom/PuzzleRoom.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/rooms/PuzzleRoom/PuzzleRoom.yy
+[12-06-2021 23:38:57] Par: "folders/Rooms" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/rooms/PuzzleRoom/PuzzleRoom.yy"
+[12-06-2021 23:38:57] Found Room: PuzzleRoom
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/rooms/Room1
+[12-06-2021 23:38:57] Checking Room1.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/rooms/Room1/Room1.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/rooms/Room1/Room1.yy
+[12-06-2021 23:38:57] Par: "folders/Rooms" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/rooms/Room1/Room1.yy"
+[12-06-2021 23:38:57] Found Room: Room1
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/rooms/TitleScreen
+[12-06-2021 23:38:57] Checking TitleScreen.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/rooms/TitleScreen/TitleScreen.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/rooms/TitleScreen/TitleScreen.yy
+[12-06-2021 23:38:57] Par: "folders/Rooms" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/rooms/TitleScreen/TitleScreen.yy"
+[12-06-2021 23:38:57] Found Room: TitleScreen
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/scripts
+[12-06-2021 23:38:57] Checking struct_constructors
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/scripts/struct_constructors
+[12-06-2021 23:38:57] Checking goto_effect
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/scripts/goto_effect
+[12-06-2021 23:38:57] Checking dialoug_scripts
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/scripts/dialoug_scripts
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/scripts/dialoug_scripts
+[12-06-2021 23:38:57] Checking dialoug_scripts.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/scripts/dialoug_scripts/dialoug_scripts.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/scripts/dialoug_scripts/dialoug_scripts.yy
+[12-06-2021 23:38:57] Par: "folders/Scripts" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/scripts/dialoug_scripts/dialoug_scripts.yy"
+[12-06-2021 23:38:57] Found Script: dialoug_scripts
+[12-06-2021 23:38:57] Checking dialoug_scripts.gml
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/scripts/goto_effect
+[12-06-2021 23:38:57] Checking goto_effect.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/scripts/goto_effect/goto_effect.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/scripts/goto_effect/goto_effect.yy
+[12-06-2021 23:38:57] Par: "folders/Scripts" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/scripts/goto_effect/goto_effect.yy"
+[12-06-2021 23:38:57] Found Script: goto_effect
+[12-06-2021 23:38:57] Checking goto_effect.gml
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/scripts/struct_constructors
+[12-06-2021 23:38:57] Checking struct_constructors.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/scripts/struct_constructors/struct_constructors.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/scripts/struct_constructors/struct_constructors.yy
+[12-06-2021 23:38:57] Par: "folders/Scripts" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/scripts/struct_constructors/struct_constructors.yy"
+[12-06-2021 23:38:57] Found Script: struct_constructors
+[12-06-2021 23:38:57] Checking struct_constructors.gml
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sequences
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/shaders
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds
+[12-06-2021 23:38:57] Checking sfx_win
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/sfx_win
+[12-06-2021 23:38:57] Checking key_ha4
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_ha4
+[12-06-2021 23:38:57] Checking key_ha
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_ha
+[12-06-2021 23:38:57] Checking key_g4
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_g4
+[12-06-2021 23:38:57] Checking key_g
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_g
+[12-06-2021 23:38:57] Checking key_f4
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_f4
+[12-06-2021 23:38:57] Checking key_f
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_f
+[12-06-2021 23:38:57] Checking key_e
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_e
+[12-06-2021 23:38:57] Checking key_d4
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_d4
+[12-06-2021 23:38:57] Checking key_d
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_d
+[12-06-2021 23:38:57] Checking key_c4
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_c4
+[12-06-2021 23:38:57] Checking key_c
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_c
+[12-06-2021 23:38:57] Checking key_b
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_b
+[12-06-2021 23:38:57] Checking key_a4
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_a4
+[12-06-2021 23:38:57] Checking key_a
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_a
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_a
+[12-06-2021 23:38:57] Checking key_c.yy
+[12-06-2021 23:38:57] Trash file: key_c.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_b.yy
+[12-06-2021 23:38:57] Trash file: key_b.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_a.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_a/key_a.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_a/key_a.yy
+[12-06-2021 23:38:57] Par: "folders/Sounds" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_a/key_a.yy"
+[12-06-2021 23:38:57] Found Sound: key_a
+[12-06-2021 23:38:57] Checking key_a.wav
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_a4
+[12-06-2021 23:38:57] Checking key_c.yy
+[12-06-2021 23:38:57] Trash file: key_c.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_b.yy
+[12-06-2021 23:38:57] Trash file: key_b.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_a4.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_a4/key_a4.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_a4/key_a4.yy
+[12-06-2021 23:38:57] Par: "folders/Sounds" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_a4/key_a4.yy"
+[12-06-2021 23:38:57] Found Sound: key_a4
+[12-06-2021 23:38:57] Checking key_a4.wav
+[12-06-2021 23:38:57] Checking key_a.yy
+[12-06-2021 23:38:57] Trash file: key_a.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_b
+[12-06-2021 23:38:57] Checking key_c.yy
+[12-06-2021 23:38:57] Trash file: key_c.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_b.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_b/key_b.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_b/key_b.yy
+[12-06-2021 23:38:57] Par: "folders/Sounds" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_b/key_b.yy"
+[12-06-2021 23:38:57] Found Sound: key_b
+[12-06-2021 23:38:57] Checking key_b.wav
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_c
+[12-06-2021 23:38:57] Checking key_c.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_c/key_c.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_c/key_c.yy
+[12-06-2021 23:38:57] Par: "folders/Sounds" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_c/key_c.yy"
+[12-06-2021 23:38:57] Found Sound: key_c
+[12-06-2021 23:38:57] Checking key_c.wav
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_c4
+[12-06-2021 23:38:57] Checking key_c4.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_c4/key_c4.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_c4/key_c4.yy
+[12-06-2021 23:38:57] Par: "folders/Sounds" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_c4/key_c4.yy"
+[12-06-2021 23:38:57] Found Sound: key_c4
+[12-06-2021 23:38:57] Checking key_c4.wav
+[12-06-2021 23:38:57] Checking key_c.yy
+[12-06-2021 23:38:57] Trash file: key_c.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_d
+[12-06-2021 23:38:57] Checking key_d.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_d/key_d.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_d/key_d.yy
+[12-06-2021 23:38:57] Par: "folders/Sounds" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_d/key_d.yy"
+[12-06-2021 23:38:57] Found Sound: key_d
+[12-06-2021 23:38:57] Checking key_d.wav
+[12-06-2021 23:38:57] Checking key_c4.yy
+[12-06-2021 23:38:57] Trash file: key_c4.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_c.yy
+[12-06-2021 23:38:57] Trash file: key_c.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_d4
+[12-06-2021 23:38:57] Checking key_d4.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_d4/key_d4.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_d4/key_d4.yy
+[12-06-2021 23:38:57] Par: "folders/Sounds" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_d4/key_d4.yy"
+[12-06-2021 23:38:57] Found Sound: key_d4
+[12-06-2021 23:38:57] Checking key_d4.wav
+[12-06-2021 23:38:57] Checking key_d.yy
+[12-06-2021 23:38:57] Trash file: key_d.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_c4.yy
+[12-06-2021 23:38:57] Trash file: key_c4.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_c.yy
+[12-06-2021 23:38:57] Trash file: key_c.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_e
+[12-06-2021 23:38:57] Checking key_e.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_e/key_e.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_e/key_e.yy
+[12-06-2021 23:38:57] Par: "folders/Sounds" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_e/key_e.yy"
+[12-06-2021 23:38:57] Found Sound: key_e
+[12-06-2021 23:38:57] Checking key_e.wav
+[12-06-2021 23:38:57] Checking key_d4.yy
+[12-06-2021 23:38:57] Trash file: key_d4.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_d.yy
+[12-06-2021 23:38:57] Trash file: key_d.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_c4.yy
+[12-06-2021 23:38:57] Trash file: key_c4.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_c.yy
+[12-06-2021 23:38:57] Trash file: key_c.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_f
+[12-06-2021 23:38:57] Checking key_f.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_f/key_f.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_f/key_f.yy
+[12-06-2021 23:38:57] Par: "folders/Sounds" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_f/key_f.yy"
+[12-06-2021 23:38:57] Found Sound: key_f
+[12-06-2021 23:38:57] Checking key_f.wav
+[12-06-2021 23:38:57] Checking key_e.yy
+[12-06-2021 23:38:57] Trash file: key_e.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_d4.yy
+[12-06-2021 23:38:57] Trash file: key_d4.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_d.yy
+[12-06-2021 23:38:57] Trash file: key_d.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_c4.yy
+[12-06-2021 23:38:57] Trash file: key_c4.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_c.yy
+[12-06-2021 23:38:57] Trash file: key_c.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_f4
+[12-06-2021 23:38:57] Checking key_f4.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_f4/key_f4.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_f4/key_f4.yy
+[12-06-2021 23:38:57] Par: "folders/Sounds" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_f4/key_f4.yy"
+[12-06-2021 23:38:57] Found Sound: key_f4
+[12-06-2021 23:38:57] Checking key_f4.wav
+[12-06-2021 23:38:57] Checking key_f.yy
+[12-06-2021 23:38:57] Trash file: key_f.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_e.yy
+[12-06-2021 23:38:57] Trash file: key_e.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_d4.yy
+[12-06-2021 23:38:57] Trash file: key_d4.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_d.yy
+[12-06-2021 23:38:57] Trash file: key_d.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_c4.yy
+[12-06-2021 23:38:57] Trash file: key_c4.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_c.yy
+[12-06-2021 23:38:57] Trash file: key_c.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_g
+[12-06-2021 23:38:57] Checking key_g.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_g/key_g.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_g/key_g.yy
+[12-06-2021 23:38:57] Par: "folders/Sounds" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_g/key_g.yy"
+[12-06-2021 23:38:57] Found Sound: key_g
+[12-06-2021 23:38:57] Checking key_g.wav
+[12-06-2021 23:38:57] Checking key_f4.yy
+[12-06-2021 23:38:57] Trash file: key_f4.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_f.yy
+[12-06-2021 23:38:57] Trash file: key_f.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_e.yy
+[12-06-2021 23:38:57] Trash file: key_e.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_d4.yy
+[12-06-2021 23:38:57] Trash file: key_d4.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_d.yy
+[12-06-2021 23:38:57] Trash file: key_d.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_c4.yy
+[12-06-2021 23:38:57] Trash file: key_c4.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_c.yy
+[12-06-2021 23:38:57] Trash file: key_c.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_g4
+[12-06-2021 23:38:57] Checking key_g4.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_g4/key_g4.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_g4/key_g4.yy
+[12-06-2021 23:38:57] Par: "folders/Sounds" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_g4/key_g4.yy"
+[12-06-2021 23:38:57] Found Sound: key_g4
+[12-06-2021 23:38:57] Checking key_g4.wav
+[12-06-2021 23:38:57] Checking key_g.yy
+[12-06-2021 23:38:57] Trash file: key_g.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_f4.yy
+[12-06-2021 23:38:57] Trash file: key_f4.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_f.yy
+[12-06-2021 23:38:57] Trash file: key_f.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_e.yy
+[12-06-2021 23:38:57] Trash file: key_e.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_d4.yy
+[12-06-2021 23:38:57] Trash file: key_d4.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_d.yy
+[12-06-2021 23:38:57] Trash file: key_d.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_c4.yy
+[12-06-2021 23:38:57] Trash file: key_c4.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_c.yy
+[12-06-2021 23:38:57] Trash file: key_c.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_ha
+[12-06-2021 23:38:57] Checking key_ha.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_ha/key_ha.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_ha/key_ha.yy
+[12-06-2021 23:38:57] Par: "folders/Sounds" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_ha/key_ha.yy"
+[12-06-2021 23:38:57] Found Sound: key_ha
+[12-06-2021 23:38:57] Checking key_ha.wav
+[12-06-2021 23:38:57] Checking key_g.yy
+[12-06-2021 23:38:57] Trash file: key_g.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_f4.yy
+[12-06-2021 23:38:57] Trash file: key_f4.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_f.yy
+[12-06-2021 23:38:57] Trash file: key_f.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_e.yy
+[12-06-2021 23:38:57] Trash file: key_e.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_d4.yy
+[12-06-2021 23:38:57] Trash file: key_d4.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_d.yy
+[12-06-2021 23:38:57] Trash file: key_d.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_c4.yy
+[12-06-2021 23:38:57] Trash file: key_c4.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_c.yy
+[12-06-2021 23:38:57] Trash file: key_c.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_ha4
+[12-06-2021 23:38:57] Checking key_ha4.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_ha4/key_ha4.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_ha4/key_ha4.yy
+[12-06-2021 23:38:57] Par: "folders/Sounds" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/key_ha4/key_ha4.yy"
+[12-06-2021 23:38:57] Found Sound: key_ha4
+[12-06-2021 23:38:57] Checking key_ha4.wav
+[12-06-2021 23:38:57] Checking key_g.yy
+[12-06-2021 23:38:57] Trash file: key_g.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_f4.yy
+[12-06-2021 23:38:57] Trash file: key_f4.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_f.yy
+[12-06-2021 23:38:57] Trash file: key_f.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_e.yy
+[12-06-2021 23:38:57] Trash file: key_e.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_d4.yy
+[12-06-2021 23:38:57] Trash file: key_d4.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_d.yy
+[12-06-2021 23:38:57] Trash file: key_d.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_c4.yy
+[12-06-2021 23:38:57] Trash file: key_c4.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_c.yy
+[12-06-2021 23:38:57] Trash file: key_c.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking key_a.yy
+[12-06-2021 23:38:57] Trash file: key_a.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/sfx_win
+[12-06-2021 23:38:57] Checking sfx_win.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/sfx_win/sfx_win.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/sfx_win/sfx_win.yy
+[12-06-2021 23:38:57] Par: "folders/Sounds" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sounds/sfx_win/sfx_win.yy"
+[12-06-2021 23:38:57] Found Sound: sfx_win
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites
+[12-06-2021 23:38:57] Checking spr_Puzzle
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_Puzzle
+[12-06-2021 23:38:57] Checking Spr_goop
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Spr_goop
+[12-06-2021 23:38:57] Checking spr_exitButton
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_exitButton
+[12-06-2021 23:38:57] Checking spr_blackKeya
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_blackKeya
+[12-06-2021 23:38:57] Checking spr_blackKey
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_blackKey
+[12-06-2021 23:38:57] Checking Sprite6
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite6
+[12-06-2021 23:38:57] Checking Sprite5
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite5
+[12-06-2021 23:38:57] Checking Sprite4
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite4
+[12-06-2021 23:38:57] Checking Sprite13a
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite13a
+[12-06-2021 23:38:57] Checking Sprite13
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite13
+[12-06-2021 23:38:57] Checking sChangeRoom
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/sChangeRoom
+[12-06-2021 23:38:57] Checking sArrow
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/sArrow
+[12-06-2021 23:38:57] Checking room_transition_spr_up
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/room_transition_spr_up
+[12-06-2021 23:38:57] Checking room_transition_spr
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/room_transition_spr
+[12-06-2021 23:38:57] Checking person_spr
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/person_spr
+[12-06-2021 23:38:57] Checking dialog_box_spr
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/dialog_box_spr
+[12-06-2021 23:38:57] Checking bg_spr
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/bg_spr
+[12-06-2021 23:38:57] Checking bckgr_Puzzle
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/bckgr_Puzzle
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/bckgr_Puzzle
+[12-06-2021 23:38:57] Checking layers
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/bckgr_Puzzle/layers
+[12-06-2021 23:38:57] Checking bckgr_Puzzle.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/bckgr_Puzzle/bckgr_Puzzle.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/bckgr_Puzzle/bckgr_Puzzle.yy
+[12-06-2021 23:38:57] Par: "folders/Sprites" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/bckgr_Puzzle/bckgr_Puzzle.yy"
+[12-06-2021 23:38:57] Found Sprite: bckgr_Puzzle
+[12-06-2021 23:38:57] Checking 647435a5-2bb8-41c6-9d6e-be9dc575efef.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/bckgr_Puzzle/layers
+[12-06-2021 23:38:57] Checking 647435a5-2bb8-41c6-9d6e-be9dc575efef
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/bckgr_Puzzle/layers/647435a5-2bb8-41c6-9d6e-be9dc575efef
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/bckgr_Puzzle/layers/647435a5-2bb8-41c6-9d6e-be9dc575efef
+[12-06-2021 23:38:57] Checking 773865fc-7119-4483-a051-4b52f87b22cc.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/bg_spr
+[12-06-2021 23:38:57] Checking layers
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/bg_spr/layers
+[12-06-2021 23:38:57] Checking bg_spr.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/bg_spr/bg_spr.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/bg_spr/bg_spr.yy
+[12-06-2021 23:38:57] Par: "folders/Sprites" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/bg_spr/bg_spr.yy"
+[12-06-2021 23:38:57] Found Sprite: bg_spr
+[12-06-2021 23:38:57] Checking 27b776a3-79ae-4bcc-b0f2-73a37b728a19.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/bg_spr/layers
+[12-06-2021 23:38:57] Checking 27b776a3-79ae-4bcc-b0f2-73a37b728a19
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/bg_spr/layers/27b776a3-79ae-4bcc-b0f2-73a37b728a19
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/bg_spr/layers/27b776a3-79ae-4bcc-b0f2-73a37b728a19
+[12-06-2021 23:38:57] Checking c08282f9-1d2b-45ba-a4a4-772058d31001.png
+[12-06-2021 23:38:57] Checking 718b4798-fcf8-4665-993e-ce2f14d4a9cd.png
+[12-06-2021 23:38:57] Checking 6389d314-1632-4e15-af56-390e74ec3afa.png
+[12-06-2021 23:38:57] Checking 4c63e895-8ad6-4895-a8c7-55a140541e3e.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/dialog_box_spr
+[12-06-2021 23:38:57] Checking layers
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/dialog_box_spr/layers
+[12-06-2021 23:38:57] Checking dialog_box_spr.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/dialog_box_spr/dialog_box_spr.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/dialog_box_spr/dialog_box_spr.yy
+[12-06-2021 23:38:57] Par: "folders/Sprites" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/dialog_box_spr/dialog_box_spr.yy"
+[12-06-2021 23:38:57] Found Sprite: dialog_box_spr
+[12-06-2021 23:38:57] Checking b1493245-1ba1-464a-b56e-497c1c6851d2.png
+[12-06-2021 23:38:57] Checking 6ca500e6-d0ee-481d-b1e6-9504b2609fd4.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/dialog_box_spr/layers
+[12-06-2021 23:38:57] Checking b1493245-1ba1-464a-b56e-497c1c6851d2
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/dialog_box_spr/layers/b1493245-1ba1-464a-b56e-497c1c6851d2
+[12-06-2021 23:38:57] Checking 6ca500e6-d0ee-481d-b1e6-9504b2609fd4
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/dialog_box_spr/layers/6ca500e6-d0ee-481d-b1e6-9504b2609fd4
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/dialog_box_spr/layers/6ca500e6-d0ee-481d-b1e6-9504b2609fd4
+[12-06-2021 23:38:57] Checking 3749e2eb-4bfd-462d-8f6e-dd06959ae890.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/dialog_box_spr/layers/b1493245-1ba1-464a-b56e-497c1c6851d2
+[12-06-2021 23:38:57] Checking 3364e6e1-2e5c-41c9-af96-dbfdd1c0c522.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/person_spr
+[12-06-2021 23:38:57] Checking person_spr.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/person_spr/person_spr.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/person_spr/person_spr.yy
+[12-06-2021 23:38:57] Par: "folders/Sprites" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/person_spr/person_spr.yy"
+[12-06-2021 23:38:57] Found Sprite: person_spr
+[12-06-2021 23:38:57] Checking layers
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/person_spr/layers
+[12-06-2021 23:38:57] Checking 8a14231e-eb11-4671-94e8-0f06de3347e0.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/person_spr/layers
+[12-06-2021 23:38:57] Checking 8a14231e-eb11-4671-94e8-0f06de3347e0
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/person_spr/layers/8a14231e-eb11-4671-94e8-0f06de3347e0
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/person_spr/layers/8a14231e-eb11-4671-94e8-0f06de3347e0
+[12-06-2021 23:38:57] Checking cf72d377-aba4-4d08-ae5a-de5f47346e81.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/room_transition_spr
+[12-06-2021 23:38:57] Checking room_transition_spr.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/room_transition_spr/room_transition_spr.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/room_transition_spr/room_transition_spr.yy
+[12-06-2021 23:38:57] Par: "folders/Sprites" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/room_transition_spr/room_transition_spr.yy"
+[12-06-2021 23:38:57] Found Sprite: room_transition_spr
+[12-06-2021 23:38:57] Checking layers
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/room_transition_spr/layers
+[12-06-2021 23:38:57] Checking 234d7cf6-8d83-45f9-9044-32124540f335.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/room_transition_spr/layers
+[12-06-2021 23:38:57] Checking 234d7cf6-8d83-45f9-9044-32124540f335
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/room_transition_spr/layers/234d7cf6-8d83-45f9-9044-32124540f335
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/room_transition_spr/layers/234d7cf6-8d83-45f9-9044-32124540f335
+[12-06-2021 23:38:57] Checking 9e071bc1-37f2-4937-bcbf-eba3871f0d84.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/room_transition_spr_up
+[12-06-2021 23:38:57] Checking room_transition_spr_up.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/room_transition_spr_up/room_transition_spr_up.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/room_transition_spr_up/room_transition_spr_up.yy
+[12-06-2021 23:38:57] Par: "folders/Sprites" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/room_transition_spr_up/room_transition_spr_up.yy"
+[12-06-2021 23:38:57] Found Sprite: room_transition_spr_up
+[12-06-2021 23:38:57] Checking room_transition_spr.yy
+[12-06-2021 23:38:57] Trash file: room_transition_spr.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking layers
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/room_transition_spr_up/layers
+[12-06-2021 23:38:57] Checking 234d7cf6-8d83-45f9-9044-32124540f335.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/room_transition_spr_up/layers
+[12-06-2021 23:38:57] Checking 234d7cf6-8d83-45f9-9044-32124540f335
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/room_transition_spr_up/layers/234d7cf6-8d83-45f9-9044-32124540f335
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/room_transition_spr_up/layers/234d7cf6-8d83-45f9-9044-32124540f335
+[12-06-2021 23:38:57] Checking 9e071bc1-37f2-4937-bcbf-eba3871f0d84.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/sArrow
+[12-06-2021 23:38:57] Checking sArrow.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/sArrow/sArrow.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/sArrow/sArrow.yy
+[12-06-2021 23:38:57] Par: "folders/Sprites/Change room" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/sArrow/sArrow.yy"
+[12-06-2021 23:38:57] Found Sprite: sArrow
+[12-06-2021 23:38:57] Checking layers
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/sArrow/layers
+[12-06-2021 23:38:57] Checking 095f45b6-1424-4aa4-9e66-f43bb2e98909.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/sArrow/layers
+[12-06-2021 23:38:57] Checking 095f45b6-1424-4aa4-9e66-f43bb2e98909
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/sArrow/layers/095f45b6-1424-4aa4-9e66-f43bb2e98909
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/sArrow/layers/095f45b6-1424-4aa4-9e66-f43bb2e98909
+[12-06-2021 23:38:57] Checking b14e1b91-e4ac-4753-814c-8f51ff9b8f70.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/sChangeRoom
+[12-06-2021 23:38:57] Checking sChangeRoom.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/sChangeRoom/sChangeRoom.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/sChangeRoom/sChangeRoom.yy
+[12-06-2021 23:38:57] Par: "folders/Sprites/Change room" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/sChangeRoom/sChangeRoom.yy"
+[12-06-2021 23:38:57] Found Sprite: sChangeRoom
+[12-06-2021 23:38:57] Checking layers
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/sChangeRoom/layers
+[12-06-2021 23:38:57] Checking 81229c60-e955-4687-857a-055d418dfc11.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/sChangeRoom/layers
+[12-06-2021 23:38:57] Checking 81229c60-e955-4687-857a-055d418dfc11
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/sChangeRoom/layers/81229c60-e955-4687-857a-055d418dfc11
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/sChangeRoom/layers/81229c60-e955-4687-857a-055d418dfc11
+[12-06-2021 23:38:57] Checking 6a81e90d-cc95-4ca5-b7f2-67bb509a5aa3.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite13
+[12-06-2021 23:38:57] Checking Sprite13.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite13/Sprite13.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite13/Sprite13.yy
+[12-06-2021 23:38:57] Par: "folders/Sprites" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite13/Sprite13.yy"
+[12-06-2021 23:38:57] Found Sprite: Sprite13
+[12-06-2021 23:38:57] Checking layers
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite13/layers
+[12-06-2021 23:38:57] Checking a853bc51-305b-4626-8b9b-c3a133e184fd.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite13/layers
+[12-06-2021 23:38:57] Checking a853bc51-305b-4626-8b9b-c3a133e184fd
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite13/layers/a853bc51-305b-4626-8b9b-c3a133e184fd
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite13/layers/a853bc51-305b-4626-8b9b-c3a133e184fd
+[12-06-2021 23:38:57] Checking 8e9c62a3-c5f6-4c3c-bda1-0090dddb30fe.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite13a
+[12-06-2021 23:38:57] Checking Sprite13a.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite13a/Sprite13a.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite13a/Sprite13a.yy
+[12-06-2021 23:38:57] Par: "folders/Sprites" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite13a/Sprite13a.yy"
+[12-06-2021 23:38:57] Found Sprite: Sprite13a
+[12-06-2021 23:38:57] Checking Sprite13.yy
+[12-06-2021 23:38:57] Trash file: Sprite13.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking layers
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite13a/layers
+[12-06-2021 23:38:57] Checking a853bc51-305b-4626-8b9b-c3a133e184fd.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite13a/layers
+[12-06-2021 23:38:57] Checking a853bc51-305b-4626-8b9b-c3a133e184fd
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite13a/layers/a853bc51-305b-4626-8b9b-c3a133e184fd
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite13a/layers/a853bc51-305b-4626-8b9b-c3a133e184fd
+[12-06-2021 23:38:57] Checking 8e9c62a3-c5f6-4c3c-bda1-0090dddb30fe.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite4
+[12-06-2021 23:38:57] Checking Sprite4.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite4/Sprite4.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite4/Sprite4.yy
+[12-06-2021 23:38:57] Par: "folders/Sprites" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite4/Sprite4.yy"
+[12-06-2021 23:38:57] Found Sprite: Sprite4
+[12-06-2021 23:38:57] Checking layers
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite4/layers
+[12-06-2021 23:38:57] Checking 0f27674b-fc51-43d4-9f89-f20e2a9fff4e.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite4/layers
+[12-06-2021 23:38:57] Checking 0f27674b-fc51-43d4-9f89-f20e2a9fff4e
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite4/layers/0f27674b-fc51-43d4-9f89-f20e2a9fff4e
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite4/layers/0f27674b-fc51-43d4-9f89-f20e2a9fff4e
+[12-06-2021 23:38:57] Checking 2c6b91f7-530a-444d-9e53-c585a480861d.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite5
+[12-06-2021 23:38:57] Checking Sprite5.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite5/Sprite5.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite5/Sprite5.yy
+[12-06-2021 23:38:57] ROOT found, not added.
+[12-06-2021 23:38:57] Par: "folders" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite5/Sprite5.yy"
+[12-06-2021 23:38:57] Found Sprite: Sprite5
+[12-06-2021 23:38:57] Checking layers
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite5/layers
+[12-06-2021 23:38:57] Checking d42e3fba-ae76-427e-8091-2c6b8648ca39.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite5/layers
+[12-06-2021 23:38:57] Checking d42e3fba-ae76-427e-8091-2c6b8648ca39
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite5/layers/d42e3fba-ae76-427e-8091-2c6b8648ca39
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite5/layers/d42e3fba-ae76-427e-8091-2c6b8648ca39
+[12-06-2021 23:38:57] Checking 2faa64f2-abd9-4eae-ab86-d74612c3c3e4.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite6
+[12-06-2021 23:38:57] Checking Sprite6.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite6/Sprite6.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite6/Sprite6.yy
+[12-06-2021 23:38:57] ROOT found, not added.
+[12-06-2021 23:38:57] Par: "folders" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite6/Sprite6.yy"
+[12-06-2021 23:38:57] Found Sprite: Sprite6
+[12-06-2021 23:38:57] Checking layers
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite6/layers
+[12-06-2021 23:38:57] Checking dc43281e-513a-4dde-9be9-787cc39c5ec0.png
+[12-06-2021 23:38:57] Checking c449f19d-6904-451b-9ce3-9a47019f54fe.png
+[12-06-2021 23:38:57] Checking 639fd2da-1695-4e92-9cd1-b7a8b83d8a5f.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite6/layers
+[12-06-2021 23:38:57] Checking dc43281e-513a-4dde-9be9-787cc39c5ec0
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite6/layers/dc43281e-513a-4dde-9be9-787cc39c5ec0
+[12-06-2021 23:38:57] Checking c449f19d-6904-451b-9ce3-9a47019f54fe
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite6/layers/c449f19d-6904-451b-9ce3-9a47019f54fe
+[12-06-2021 23:38:57] Checking 639fd2da-1695-4e92-9cd1-b7a8b83d8a5f
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite6/layers/639fd2da-1695-4e92-9cd1-b7a8b83d8a5f
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite6/layers/639fd2da-1695-4e92-9cd1-b7a8b83d8a5f
+[12-06-2021 23:38:57] Checking 1efde369-b378-45be-be89-1502305ee567.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite6/layers/c449f19d-6904-451b-9ce3-9a47019f54fe
+[12-06-2021 23:38:57] Checking 1efde369-b378-45be-be89-1502305ee567.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Sprite6/layers/dc43281e-513a-4dde-9be9-787cc39c5ec0
+[12-06-2021 23:38:57] Checking 1efde369-b378-45be-be89-1502305ee567.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_blackKey
+[12-06-2021 23:38:57] Checking spr_blackKey.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_blackKey/spr_blackKey.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_blackKey/spr_blackKey.yy
+[12-06-2021 23:38:57] Par: "folders/Sprites" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_blackKey/spr_blackKey.yy"
+[12-06-2021 23:38:57] Found Sprite: spr_blackKey
+[12-06-2021 23:38:57] Checking layers
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_blackKey/layers
+[12-06-2021 23:38:57] Checking a853bc51-305b-4626-8b9b-c3a133e184fd.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_blackKey/layers
+[12-06-2021 23:38:57] Checking a853bc51-305b-4626-8b9b-c3a133e184fd
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_blackKey/layers/a853bc51-305b-4626-8b9b-c3a133e184fd
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_blackKey/layers/a853bc51-305b-4626-8b9b-c3a133e184fd
+[12-06-2021 23:38:57] Checking 8e9c62a3-c5f6-4c3c-bda1-0090dddb30fe.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_blackKeya
+[12-06-2021 23:38:57] Checking spr_blackKeya.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_blackKeya/spr_blackKeya.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_blackKeya/spr_blackKeya.yy
+[12-06-2021 23:38:57] Par: "folders/Sprites" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_blackKeya/spr_blackKeya.yy"
+[12-06-2021 23:38:57] Found Sprite: spr_blackKeya
+[12-06-2021 23:38:57] Checking spr_blackKey.yy
+[12-06-2021 23:38:57] Trash file: spr_blackKey.yy, will be moved to ___yyp_maker_trash
+[12-06-2021 23:38:57] Checking layers
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_blackKeya/layers
+[12-06-2021 23:38:57] Checking a853bc51-305b-4626-8b9b-c3a133e184fd.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_blackKeya/layers
+[12-06-2021 23:38:57] Checking a853bc51-305b-4626-8b9b-c3a133e184fd
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_blackKeya/layers/a853bc51-305b-4626-8b9b-c3a133e184fd
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_blackKeya/layers/a853bc51-305b-4626-8b9b-c3a133e184fd
+[12-06-2021 23:38:57] Checking 8e9c62a3-c5f6-4c3c-bda1-0090dddb30fe.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_exitButton
+[12-06-2021 23:38:57] Checking spr_exitButton.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_exitButton/spr_exitButton.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_exitButton/spr_exitButton.yy
+[12-06-2021 23:38:57] Par: "folders/Sprites" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_exitButton/spr_exitButton.yy"
+[12-06-2021 23:38:57] Found Sprite: spr_exitButton
+[12-06-2021 23:38:57] Checking layers
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_exitButton/layers
+[12-06-2021 23:38:57] Checking ce4e4ff9-fc56-43f6-b9bb-69b3222c90c3.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_exitButton/layers
+[12-06-2021 23:38:57] Checking ce4e4ff9-fc56-43f6-b9bb-69b3222c90c3
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_exitButton/layers/ce4e4ff9-fc56-43f6-b9bb-69b3222c90c3
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_exitButton/layers/ce4e4ff9-fc56-43f6-b9bb-69b3222c90c3
+[12-06-2021 23:38:57] Checking f02bce11-ef8a-47de-aedc-0bc15c2077b6.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Spr_goop
+[12-06-2021 23:38:57] Checking Spr_goop.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Spr_goop/Spr_goop.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Spr_goop/Spr_goop.yy
+[12-06-2021 23:38:57] Par: "folders/Sprites" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Spr_goop/Spr_goop.yy"
+[12-06-2021 23:38:57] Found Sprite: Spr_goop
+[12-06-2021 23:38:57] Checking layers
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Spr_goop/layers
+[12-06-2021 23:38:57] Checking ba345c4f-0ff1-4224-a808-22f6ce07b922.png
+[12-06-2021 23:38:57] Checking b236e24d-5de6-41a2-94a5-552f6f48c400.png
+[12-06-2021 23:38:57] Checking 593e6f1e-91c1-4075-af56-a91c5c5e2246.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Spr_goop/layers
+[12-06-2021 23:38:57] Checking ba345c4f-0ff1-4224-a808-22f6ce07b922
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Spr_goop/layers/ba345c4f-0ff1-4224-a808-22f6ce07b922
+[12-06-2021 23:38:57] Checking b236e24d-5de6-41a2-94a5-552f6f48c400
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Spr_goop/layers/b236e24d-5de6-41a2-94a5-552f6f48c400
+[12-06-2021 23:38:57] Checking 593e6f1e-91c1-4075-af56-a91c5c5e2246
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Spr_goop/layers/593e6f1e-91c1-4075-af56-a91c5c5e2246
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Spr_goop/layers/593e6f1e-91c1-4075-af56-a91c5c5e2246
+[12-06-2021 23:38:57] Checking 23f8b9e7-aac2-4089-80e8-dbe0405aca79.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Spr_goop/layers/b236e24d-5de6-41a2-94a5-552f6f48c400
+[12-06-2021 23:38:57] Checking 23f8b9e7-aac2-4089-80e8-dbe0405aca79.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/Spr_goop/layers/ba345c4f-0ff1-4224-a808-22f6ce07b922
+[12-06-2021 23:38:57] Checking 23f8b9e7-aac2-4089-80e8-dbe0405aca79.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_Puzzle
+[12-06-2021 23:38:57] Checking spr_Puzzle.yy
+[12-06-2021 23:38:57] Parsing d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_Puzzle/spr_Puzzle.yy
+[12-06-2021 23:38:57] Reading d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_Puzzle/spr_Puzzle.yy
+[12-06-2021 23:38:57] Par: "folders/Sprites" at dir: "d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_Puzzle/spr_Puzzle.yy"
+[12-06-2021 23:38:57] Found Sprite: spr_Puzzle
+[12-06-2021 23:38:57] Checking layers
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_Puzzle/layers
+[12-06-2021 23:38:57] Checking c73255c8-382a-465c-a985-d72ca0dfcefb.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_Puzzle/layers
+[12-06-2021 23:38:57] Checking c73255c8-382a-465c-a985-d72ca0dfcefb
+[12-06-2021 23:38:57] Directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_Puzzle/layers/c73255c8-382a-465c-a985-d72ca0dfcefb
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/sprites/spr_Puzzle/layers/c73255c8-382a-465c-a985-d72ca0dfcefb
+[12-06-2021 23:38:57] Checking 143a1379-206f-4c94-9070-221324df6f52.png
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/tilesets
+[12-06-2021 23:38:57] Current parent directory: d:/Users/Flint/Documents/GameMakerStudio2/GMTK2021/timelines
+[12-06-2021 23:38:57] Moving files to trash...
+[12-06-2021 23:38:57] Files yeeted successfully!
+[12-06-2021 23:38:57] Generating YYP...
+[12-06-2021 23:38:57] GMTK2021.yyp created successfully!

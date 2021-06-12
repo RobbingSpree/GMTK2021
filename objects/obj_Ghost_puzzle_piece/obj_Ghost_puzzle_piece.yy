@@ -27,7 +27,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Ghost Puzzle",
-    "path": "folders/Objects/Ghost Puzzle/Puzzles/Ghost Puzzle.yy",
+    "path": "folders/Objects/Puzzles/Ghost Puzzle.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_Ghost_puzzle_piece",

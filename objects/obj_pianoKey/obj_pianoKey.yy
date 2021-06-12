@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Piano Puzzle",
-    "path": "folders/Objects/Piano Puzzle.yy",
+    "path": "folders/Objects/Puzzles/Piano Puzzle.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_pianoKey",

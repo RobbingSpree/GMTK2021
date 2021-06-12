@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "torn paper",
-    "path": "folders/Objects/torn paper.yy",
+    "path": "folders/Objects/Puzzles/torn paper.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_paper_controller",

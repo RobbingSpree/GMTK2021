@@ -10,6 +10,7 @@
     {"id":{"name":"obj_Piano","path":"objects/obj_Piano/obj_Piano.yy",},"order":6,},
     {"id":{"name":"obj_pianoKey","path":"objects/obj_pianoKey/obj_pianoKey.yy",},"order":7,},
     {"id":{"name":"obj_pianoWin","path":"objects/obj_pianoWin/obj_pianoWin.yy",},"order":8,},
+    {"id":{"name":"obj_spectralgoop","path":"objects/obj_spectralgoop/obj_spectralgoop.yy",},"order":16,},
     {"id":{"name":"obj_puzzleStarter","path":"objects/obj_puzzleStarter/obj_puzzleStarter.yy",},"order":9,},
     {"id":{"name":"obj_room_change_effect","path":"objects/obj_room_change_effect/obj_room_change_effect.yy",},"order":10,},
     {"id":{"name":"obj_title_return","path":"objects/obj_title_return/obj_title_return.yy",},"order":11,},

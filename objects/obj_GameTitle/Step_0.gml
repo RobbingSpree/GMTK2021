@@ -19,6 +19,6 @@ if(image_alpha < 0.2)
 	
 	randang = irandom(360);
 
-	//var newgoop = instance_create_layer(x + randx, y + randy, "Instances", Obj_spectralgoop);
-	//newgoop.ang = randang;
+	var newgoop = instance_create_layer(x + randx, y + randy, "Instances", obj_spectralgoop);
+	newgoop.ang = randang;
 }

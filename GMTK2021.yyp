@@ -1,5 +1,12 @@
 {
   "resources": [
+    {"id":{"name":"struct_constructors","path":"scripts/struct_constructors/struct_constructors.yy",},"order":1,},
+    {"id":{"name":"person_spr","path":"sprites/person_spr/person_spr.yy",},"order":0,},
+    {"id":{"name":"dialog_box_spr","path":"sprites/dialog_box_spr/dialog_box_spr.yy",},"order":1,},
+    {"id":{"name":"dialoug_scripts","path":"scripts/dialoug_scripts/dialoug_scripts.yy",},"order":0,},
+    {"id":{"name":"textbox","path":"objects/textbox/textbox.yy",},"order":1,},
+    {"id":{"name":"dialog_holder","path":"objects/dialog_holder/dialog_holder.yy",},"order":0,},
+    {"id":{"name":"defont","path":"fonts/defont/defont.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -45,7 +52,9 @@
   "TextureGroups": [
     {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
   ],
-  "IncludedFiles": [],
+  "IncludedFiles": [
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"Script.csv","resourceType":"GMIncludedFile",},
+  ],
   "MetaData": {
     "IDEVersion": "2.3.2.560",
   },

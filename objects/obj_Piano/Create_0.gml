@@ -2,7 +2,7 @@
 // You can write your code in this editor
 firstwin = 0;
 list = ds_list_create()
-ds_list_add(list,key_a,key_b,key_c,key_d,key_e,key_f,key_g,key_ha,key_a4,dkWIN,key_c4,key_d4,dkWIN,key_f4,key_g4,key_ha4);
+ds_list_add(list,key_a,key_b,key_c,key_d,key_e,key_f,key_g,key_ha,key_a4,"",key_c4,key_d4,"",key_f4,key_g4,key_ha4);
 
 for(i = 0; i < 8; i += 1) {
 	var newkey = instance_create_layer(x + i*125, y + 0, "whitekeys", obj_pianoKey);

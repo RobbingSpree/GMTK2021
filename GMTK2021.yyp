@@ -74,8 +74,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"ExploreRoom","path":"rooms/ExploreRoom/ExploreRoom.yy",},},
     {"roomId":{"name":"PianoPuzzle","path":"rooms/PianoPuzzle/PianoPuzzle.yy",},},
+    {"roomId":{"name":"ExploreRoom","path":"rooms/ExploreRoom/ExploreRoom.yy",},},
     {"roomId":{"name":"PuzzleRoom","path":"rooms/PuzzleRoom/PuzzleRoom.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},

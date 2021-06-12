@@ -1,5 +1,13 @@
 {
   "resources": [
+    {"id":{"name":"obj_exit","path":"objects/obj_exit/obj_exit.yy",},"order":1,},
+    {"id":{"name":"sfx_win","path":"sounds/sfx_win/sfx_win.yy",},"order":0,},
+    {"id":{"name":"puzzle_screen","path":"objects/puzzle_screen/puzzle_screen.yy",},"order":0,},
+    {"id":{"name":"obj_puzzleStarter","path":"objects/obj_puzzleStarter/obj_puzzleStarter.yy",},"order":2,},
+    {"id":{"name":"spr_Puzzle","path":"sprites/spr_Puzzle/spr_Puzzle.yy",},"order":2,},
+    {"id":{"name":"spr_exitButton","path":"sprites/spr_exitButton/spr_exitButton.yy",},"order":1,},
+    {"id":{"name":"bckgr_Puzzle","path":"sprites/bckgr_Puzzle/bckgr_Puzzle.yy",},"order":0,},
+    {"id":{"name":"PuzzleRoom","path":"rooms/PuzzleRoom/PuzzleRoom.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -22,6 +30,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"PuzzleRoom","path":"rooms/PuzzleRoom/PuzzleRoom.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

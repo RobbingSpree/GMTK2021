@@ -13,8 +13,8 @@
   "soundFile": "key_f4.wav",
   "duration": 1.026066,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "piano sounds",
+    "path": "folders/Sounds/piano sounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "key_f4",

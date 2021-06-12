@@ -13,8 +13,8 @@
   "soundFile": "key_g.wav",
   "duration": 0.927902,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "piano sounds",
+    "path": "folders/Sounds/piano sounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "key_g",

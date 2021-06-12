@@ -13,8 +13,8 @@
   "soundFile": "key_ha4.wav",
   "duration": 0.450238,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "piano sounds",
+    "path": "folders/Sounds/piano sounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "key_ha4",

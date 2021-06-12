@@ -17,3 +17,6 @@ draw_textbox_text();
 
 draw_set_color(c_white);
 draw_set_font(-1);
+
+draw_text(20,20,x1);
+draw_text(20,40,x2);

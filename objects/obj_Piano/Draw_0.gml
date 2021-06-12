@@ -8,4 +8,6 @@ for (var i=0; i<size; i++) {
 	var val = ds_queue_dequeue(qc);
 	draw_text(20+i*20,20,val)
 }
+
+
 ds_queue_destroy(qc);

@@ -1,5 +1,7 @@
 {
   "resources": [
+    {"id":{"name":"Sprite13a","path":"sprites/Sprite13a/Sprite13a.yy",},"order":14,},
+    {"id":{"name":"spr_blackKeya","path":"sprites/spr_blackKeya/spr_blackKeya.yy",},"order":15,},
     {"id":{"name":"key_d","path":"sounds/key_d/key_d.yy",},"order":4,},
     {"id":{"name":"ExploreRoom","path":"rooms/ExploreRoom/ExploreRoom.yy",},"order":3,},
     {"id":{"name":"dkWIN","path":"sounds/dkWIN/dkWIN.yy",},"order":1,},
@@ -21,6 +23,7 @@
     {"id":{"name":"dialog_holder","path":"objects/dialog_holder/dialog_holder.yy",},"order":5,},
     {"id":{"name":"key_d4","path":"sounds/key_d4/key_d4.yy",},"order":5,},
     {"id":{"name":"obj_Piano","path":"objects/obj_Piano/obj_Piano.yy",},"order":8,},
+    {"id":{"name":"obj_pianoWin","path":"objects/obj_pianoWin/obj_pianoWin.yy",},"order":11,},
     {"id":{"name":"sfx_win","path":"sounds/sfx_win/sfx_win.yy",},"order":0,},
     {"id":{"name":"key_c4","path":"sounds/key_c4/key_c4.yy",},"order":3,},
     {"id":{"name":"puzzle_screen","path":"objects/puzzle_screen/puzzle_screen.yy",},"order":0,},

@@ -3,3 +3,4 @@
 owner = noone;
 note = 0;
 notenum = 0;
+presstimer = 0;

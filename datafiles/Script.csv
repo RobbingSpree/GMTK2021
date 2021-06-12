@@ -1,0 +1,8 @@
+index,str,advance_to,speaking,emote_change_to,story_flag,scene_end,move_to,notes
+-1,Press Space or Left Click this box to advance.,0,no_one,,,,,
+0,You awake in a dimly lit hallway. The air is cold and you feel hard wood under your back.,1,no_one,,,,,
+1,"As your senses come back to you, you realize you're not wearing any clothes and this isn't your house.",2,no_one,,,,,
+2,"As you look around you discover a pair of pants, also not yours, but since you've just realized you're naked it's better than nothing.",3,no_one,,,,,
+3,Now partially clothed you notice a piano playing in the distance somewhere in the house,4,,,,,,
+4,Hello? Is anyone there?,5,you,,,,,
+5,END OF TEST,6,,,,TRUE,,

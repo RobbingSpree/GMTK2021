@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "GMTK2021",
+    "path": "GMTK2021.yyp",
   },
   "resourceVersion": "1.0",
   "name": "Sprite5",

@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sfx_win.mp3",
-  "duration": 29.7846,
+  "duration": 40.037,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

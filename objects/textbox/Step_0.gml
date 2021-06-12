@@ -13,6 +13,14 @@ if (mouse_within(x1,y1,x2,y2) && mouse_check_button_pressed(mb_left) || keyboard
 		}
 }
 
+if convo_end {
+	y+=5;
+	if y>offy
+		y=offy;
+} else {
+	if y>y1
+		y-=5;
+}
 
 //actor change
 if actor_arrive && fade < 1

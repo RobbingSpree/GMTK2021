@@ -9,6 +9,8 @@ y=y1; //jump to poition
 xscale = 11;
 yscale = 4;
 
+offy = room_height +30;
+
 //textbox variables
 str = "Press Space or Left Click this box to advance."; //string displayed in textbox
 draw_set_font(defont); //current font

@@ -9,8 +9,8 @@ if talking < actor.no_one
 //draw_set_color(c_white);
 
 //draw textbox
-draw_sprite_ext(dialog_box_spr,0,x1,y1,xscale,yscale,0,c_white,1);
-draw_set_color(c_black);
+draw_sprite_ext(dialog_box_spr,0,x1,y,xscale,yscale,0,c_white,1);
+draw_set_color(c_green);
 draw_set_halign(fa_left);
 
 draw_textbox_text();

@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 //show next line data
-if current_line != -1 {
+if instance_exists(textbox) && textbox.convo_end == false {
 	var str = _script[current_line].scene_end;
 	
 	if str == true
@@ -14,4 +14,6 @@ if current_line != -1 {
 	draw_text(30,110,str);
 	str = "current line: " + string(current_line);
 	draw_text(30,130,str);
+	str = "string literal: " + _script[current_line].str;
+	draw_text(30,150,str);
 }

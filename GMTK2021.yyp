@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"ExploreRoom","path":"rooms/ExploreRoom/ExploreRoom.yy",},"order":3,},
     {"id":{"name":"defont","path":"fonts/defont/defont.yy",},"order":0,},
     {"id":{"name":"obj_exit","path":"objects/obj_exit/obj_exit.yy",},"order":1,},
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},"order":15,},
@@ -11,13 +12,18 @@
     {"id":{"name":"sfx_win","path":"sounds/sfx_win/sfx_win.yy",},"order":0,},
     {"id":{"name":"textbox","path":"objects/textbox/textbox.yy",},"order":6,},
     {"id":{"name":"puzzle_screen","path":"objects/puzzle_screen/puzzle_screen.yy",},"order":0,},
+    {"id":{"name":"bg_spr","path":"sprites/bg_spr/bg_spr.yy",},"order":7,},
+    {"id":{"name":"oChangeRoom","path":"objects/oChangeRoom/oChangeRoom.yy",},"order":8,},
+    {"id":{"name":"obj_spectralgoop","path":"objects/obj_spectralgoop/obj_spectralgoop.yy",},"order":7,},
     {"id":{"name":"dialoug_scripts","path":"scripts/dialoug_scripts/dialoug_scripts.yy",},"order":0,},
+    {"id":{"name":"sChangeRoom","path":"sprites/sChangeRoom/sChangeRoom.yy",},"order":6,},
     {"id":{"name":"obj_puzzleStarter","path":"objects/obj_puzzleStarter/obj_puzzleStarter.yy",},"order":2,},
     {"id":{"name":"obj_GameTitle","path":"objects/obj_GameTitle/obj_GameTitle.yy",},"order":3,},
     {"id":{"name":"Spr_goop","path":"sprites/Spr_goop/Spr_goop.yy",},"order":5,},
     {"id":{"name":"struct_constructors","path":"scripts/struct_constructors/struct_constructors.yy",},"order":1,},
     {"id":{"name":"dialog_box_spr","path":"sprites/dialog_box_spr/dialog_box_spr.yy",},"order":4,},
     {"id":{"name":"spr_Puzzle","path":"sprites/spr_Puzzle/spr_Puzzle.yy",},"order":2,},
+    {"id":{"name":"sArrow","path":"sprites/sArrow/sArrow.yy",},"order":5,},
     {"id":{"name":"spr_exitButton","path":"sprites/spr_exitButton/spr_exitButton.yy",},"order":1,},
     {"id":{"name":"bckgr_Puzzle","path":"sprites/bckgr_Puzzle/bckgr_Puzzle.yy",},"order":0,},
     {"id":{"name":"PuzzleRoom","path":"rooms/PuzzleRoom/PuzzleRoom.yy",},"order":1,},
@@ -45,6 +51,7 @@
     {"roomId":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"PuzzleRoom","path":"rooms/PuzzleRoom/PuzzleRoom.yy",},},
+    {"roomId":{"name":"ExploreRoom","path":"rooms/ExploreRoom/ExploreRoom.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

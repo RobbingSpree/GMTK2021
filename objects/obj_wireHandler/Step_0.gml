@@ -15,8 +15,8 @@ if(win == 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 29D33B5B
 	/// @DnDParent : 0DECF8F5
-	/// @DnDArgument : "cond" "i < 3"
-	for(i = 0; i < 3; i += 1) {
+	/// @DnDArgument : "cond" "i < 4"
+	for(i = 0; i < 4; i += 1) {
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 3D9F6EB6
@@ -37,8 +37,8 @@ if(win == 0)
 		/// @DnDHash : 3AC8DF9A
 		/// @DnDParent : 29D33B5B
 		/// @DnDArgument : "var" "i"
-		/// @DnDArgument : "value" "2"
-		if(i == 2)
+		/// @DnDArgument : "value" "3"
+		if(i == 3)
 		{
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1

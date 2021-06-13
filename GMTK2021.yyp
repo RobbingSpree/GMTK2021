@@ -94,6 +94,7 @@
     {"id":{"name":"Black_key_pressed","path":"sprites/Black_key_pressed/Black_key_pressed.yy",},"order":1,},
     {"id":{"name":"dialog_box_spr","path":"sprites/dialog_box_spr/dialog_box_spr.yy",},"order":4,},
     {"id":{"name":"Fusebox_puzzle_bg","path":"sprites/Fusebox_puzzle_bg/Fusebox_puzzle_bg.yy",},"order":4,},
+    {"id":{"name":"Title_screen_static","path":"sprites/Title_screen_static/Title_screen_static.yy",},"order":24,},
     {"id":{"name":"gmtk_logo","path":"sprites/gmtk_logo/gmtk_logo.yy",},"order":5,},
     {"id":{"name":"Hall","path":"sprites/Hall/Hall.yy",},"order":5,},
     {"id":{"name":"Hall_colour","path":"sprites/Hall_colour/Hall_colour.yy",},"order":6,},
@@ -189,8 +190,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"TornLetter","path":"rooms/TornLetter/TornLetter.yy",},},
     {"roomId":{"name":"GameLogos","path":"rooms/GameLogos/GameLogos.yy",},},
+    {"roomId":{"name":"TornLetter","path":"rooms/TornLetter/TornLetter.yy",},},
     {"roomId":{"name":"Credits","path":"rooms/Credits/Credits.yy",},},
     {"roomId":{"name":"ExploreBedroom","path":"rooms/ExploreBedroom/ExploreBedroom.yy",},},
     {"roomId":{"name":"ExploreHall","path":"rooms/ExploreHall/ExploreHall.yy",},},

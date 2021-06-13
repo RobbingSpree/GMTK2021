@@ -12,16 +12,16 @@ function goto_effect(dest){
 		switch dest {
 			case Credits: mu = spectral_connections_; break;
 			case TitleScreen: mu = spectral_connections_; break;
-			case ExploreBedroom: mu = sad_piano_; break;
-			case ExploreHall: mu = sad_piano_; break;
-			case ExploreKitchen: mu = sad_piano_; break;
-			case ExploreOffice: mu = sad_piano_; break;
-			case ExploreLounge: mu = sad_piano_; break;
+			case ExploreBedroom: mu = floating_music_spectral_connexions; break;
+			case ExploreHall: mu = floating_music_spectral_connexions; break;
+			case ExploreKitchen: mu = floating_music_spectral_connexions; break;
+			case ExploreOffice: mu = floating_music_spectral_connexions; break;
+			case ExploreLounge: mu = floating_music_spectral_connexions; break;
 			case GhostPuzzleRoom: mu = puzzle_musix; break;
 			case PianoPuzzle: mu = puzzle_musix_ticking; break;
 			case TornLetter: mu = puzzle_musix; break;
 			case WiringRoom: mu = puzzle_musix; break;
-			default: mu = sad_piano_;
+			default: mu = floating_music_spectral_connexions;
 		}
 		if mu != music {
 			last_track = current_track;

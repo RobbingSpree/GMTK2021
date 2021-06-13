@@ -129,6 +129,7 @@
     {"id":{"name":"Sprite13a","path":"sprites/Sprite13a/Sprite13a.yy",},"order":3,},
     {"id":{"name":"Sprite29","path":"sprites/Sprite29/Sprite29.yy",},"order":7,},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},"order":9,},
+    {"id":{"name":"floating_music_spectral_connexions","path":"sounds/floating_music_spectral_connexions/floating_music_spectral_connexions.yy",},"order":10,},
     {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},"order":8,},
     {"id":{"name":"spr_blackKey","path":"sprites/spr_blackKey/spr_blackKey.yy",},"order":4,},
     {"id":{"name":"spr_blackKeya","path":"sprites/spr_blackKeya/spr_blackKeya.yy",},"order":5,},

@@ -19,7 +19,6 @@ if (abs(x-holetargetx) <20 && abs(y-holetargety) <20 && follow_mouse == false &&
 }
 
 
-
 if(follow_mouse == true)
 {
 	x = mouse_x;

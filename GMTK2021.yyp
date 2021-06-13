@@ -79,6 +79,7 @@
     {"id":{"name":"OldMan_Normal","path":"sounds/OldMan_Normal/OldMan_Normal.yy",},"order":1,},
     {"id":{"name":"puzzle_musix","path":"sounds/puzzle_musix/puzzle_musix.yy",},"order":5,},
     {"id":{"name":"puzzle_musix_ticking","path":"sounds/puzzle_musix_ticking/puzzle_musix_ticking.yy",},"order":6,},
+    {"id":{"name":"defont2","path":"fonts/defont2/defont2.yy",},"order":1,},
     {"id":{"name":"sad_piano_","path":"sounds/sad_piano_/sad_piano_.yy",},"order":7,},
     {"id":{"name":"sfx_click","path":"sounds/sfx_click/sfx_click.yy",},"order":8,},
     {"id":{"name":"sfx_win","path":"sounds/sfx_win/sfx_win.yy",},"order":9,},

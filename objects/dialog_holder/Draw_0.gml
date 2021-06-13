@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 //show next line data
-
+/*
 if instance_exists(textbox) {
 	var str = _script[current_line].scene_end;
 	draw_set_color(c_yellow);

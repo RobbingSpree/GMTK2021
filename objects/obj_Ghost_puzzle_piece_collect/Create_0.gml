@@ -3,7 +3,7 @@ if _ds[? "activated"]{
 	instance_destroy();
 }
 
-clickable = false;
+clickable = true;
 clicked = false;
 //offy	= 0;
 desty = y - 32;

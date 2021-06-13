@@ -192,9 +192,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"GameLogos","path":"rooms/GameLogos/GameLogos.yy",},},
     {"roomId":{"name":"PianoPuzzle","path":"rooms/PianoPuzzle/PianoPuzzle.yy",},},
     {"roomId":{"name":"PuzzleRoom","path":"rooms/PuzzleRoom/PuzzleRoom.yy",},},
-    {"roomId":{"name":"GameLogos","path":"rooms/GameLogos/GameLogos.yy",},},
     {"roomId":{"name":"Credits","path":"rooms/Credits/Credits.yy",},},
     {"roomId":{"name":"ExploreBedroom","path":"rooms/ExploreBedroom/ExploreBedroom.yy",},},
     {"roomId":{"name":"ExploreHall","path":"rooms/ExploreHall/ExploreHall.yy",},},

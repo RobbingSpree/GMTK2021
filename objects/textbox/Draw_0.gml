@@ -8,7 +8,7 @@ if talking > actor.you
 		case actor.teen_boy: spr = teen_colour_second_try; break;
 		case actor.young_woman: spr = Young_woman_colour; break;
 	}
-	draw_sprite_ext(spr,posing,0,0,0.5,0.5,0,c_white,fade);
+	draw_sprite_ext(spr,posing,0,0,1,1,0,c_white,fade);
 }
 //draw_set_color(c_red);
 //draw_text(20,20,dcount);

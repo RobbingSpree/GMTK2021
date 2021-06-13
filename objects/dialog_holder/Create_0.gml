@@ -37,3 +37,54 @@ current_line = 0;
 convo_end = false;
 //import script into game
 csv_to_dialog("Script.csv");
+
+puzzles_status = [0,0,0,0];
+
+#region puzzle setup
+//global inits
+global.ghostPuzzleArray = [];
+
+//ghost puzzle pieces init
+var _i = 7;
+var _arr = global.ghostPuzzleArray;
+
+//7
+global.ghostPuzzleArray[_i] = ds_map_create();
+ds_map_add(_arr[_i], "activated", false);
+ds_map_add(_arr[_i], "horTarg", -1);
+ds_map_add(_arr[_i], "vrtTarg", -1);
+ds_map_add(_arr[_i], "inPlace", false);
+_i--;
+
+//6
+global.ghostPuzzleArray[_i] = ds_map_create();
+ds_map_add(_arr[_i], "activated", false);
+ds_map_add(_arr[_i], "horTarg", 64 + (6 * 128));
+ds_map_add(_arr[_i], "vrtTarg", 68 + (4 * 135));
+ds_map_add(_arr[_i], "inPlace", false);
+_i--;
+
+//5
+global.ghostPuzzleArray[_i] = ds_map_create();
+ds_map_add(_arr[_i], "activated", false);
+ds_map_add(_arr[_i], "horTarg", 64 + (0 * 128));
+ds_map_add(_arr[_i], "vrtTarg", 68 + (4 * 135));
+ds_map_add(_arr[_i], "inPlace", false);
+_i--;
+
+//4
+global.ghostPuzzleArray[_i] = ds_map_create();
+ds_map_add(_arr[_i], "activated", false);
+ds_map_add(_arr[_i], "horTarg", 64 + (1 * 128));
+ds_map_add(_arr[_i], "vrtTarg", 68 + (3 * 135));
+ds_map_add(_arr[_i], "inPlace", false);
+_i--;
+
+//3
+global.ghostPuzzleArray[_i] = ds_map_create();
+ds_map_add(_arr[_i], "activated", false);
+ds_map_add(_arr[_i], "horTarg", 64 + (4 * 128));
+ds_map_add(_arr[_i], "vrtTarg", 68 + (2 * 135));
+ds_map_add(_arr[_i], "inPlace", false);
+_i--;
+#endregion

@@ -2,10 +2,12 @@
 
 global.nutPartSystem = part_system_create();
 global.nutPartType[0] = 0;
-
+/*
 enum nut_part{
-	jigsaw_pickup
+	jigsaw_pickup,
+	electric_sparkle
 }
+*/
 
 var _p = part_type_create();
 

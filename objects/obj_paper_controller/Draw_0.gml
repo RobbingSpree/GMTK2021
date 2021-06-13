@@ -3,7 +3,7 @@
 draw_self();
 
 if solved {
-	draw_rectangle(room_width/2-20,room_height/4-20,room_width/2+20,room_height/4+20,false);
+	draw_rectangle(room_width/2,room_height/4,room_width/2+100,room_height/4+50,false);
 	var gren = irandom(255);
 	var reed = irandom(255);
 	var blu = irandom(255);

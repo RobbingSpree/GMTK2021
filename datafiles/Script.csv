@@ -140,7 +140,7 @@ index,str,advance_to,speaking,emote_change_to,story_flag,scene_end,move_to,locat
 137,Thats when I realised. I spoke to the older lady about why she was joined to the tea set. She just wanted the set to go to someone who would love it like she had. I helped her.,138,you,,Intro_sequence,,,front_door,,
 138,Today will be a good day. ,139,you,,Intro_sequence,,,front_door,,
 139,I started chatting with a customer who was buying furniture to stage a house and she said that the house she was selling was a challenge as everyone thought it was haunted.,140,you,,Intro_sequence,,,front_door,,
-140,"I told her I'd come give the place a look, help release any spirits who might be connected to the house.",5,you,,Intro_sequence,,,front_door,,
+140,"I told her I'd come give the place a look, help release any spirits who might be connected to the house.",6,you,,Intro_sequence,,,front_door,,
 141,Fourth ghost puzzle solved,141,no_one,,outro_sequence,,,bedroom,Once all four ghosts puzzles have been solved this squence starts,
 142,I think that was the last of them. They've all had their connections severed.,142,you,,outro_sequence,,,bedroom,,
 143,Why does that make me sad? This was my job,143,you,,outro_sequence,,,bedroom,,

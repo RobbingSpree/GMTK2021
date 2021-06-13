@@ -23,6 +23,7 @@ if convo_end {
 	actor_leave = true;
 	//gving back the move control
 	if instance_exists(obj_map) obj_map.canMoveToAnOtherRoom = true;
+	if instance_exists(obj_Ghost_puzzle_piece_collect) obj_Ghost_puzzle_piece_collect.clickable = true;
 	
 	y+=5;
 	if y>offy

@@ -34,8 +34,8 @@ for (var i=0; i<10; i++)
 
 //load from external files
 _script = [];//the entier script
-last_line = 146; //magic number, total number of lines in script, can get from height of the csv import but it can have weird extra values
-current_line = 131;
+last_line = 150; //magic number, total number of lines in script, can get from height of the csv import but it can have weird extra values
+current_line = 132;
 convo_end = false;
 //import script into game
 csv_to_dialog("Script.csv");

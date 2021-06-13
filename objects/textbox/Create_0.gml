@@ -12,7 +12,7 @@ yscale = 3;
 offy = room_height +30;
 
 //textbox variables
-str = "Press Space or Left Click this box to advance."; //string displayed in textbox
+str = dialog_holder._script[dialog_holder.current_line].str; //string displayed in textbox
 draw_set_font(defont); //current font
 modifier = 0;
 margin = 20; //gap kept between text and edge of textbox in px

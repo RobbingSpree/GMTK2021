@@ -4,6 +4,6 @@ var xx = room_width/2;
 draw_text_centered(xx,room_height/7,"Code and Team Lead: Robert Tester");
 draw_text_centered(xx,room_height/7*2,"Art and Music: Nikarra Palmer-Simmons");
 draw_text_centered(xx,room_height/7*3,"Code: Nut");
-draw_text_centered(xx,room_height/7*4,"Code: aceM");
+draw_text_centered(xx,room_height/7*4,"Code: Matt Cooke");
 draw_text_centered(xx,room_height/7*5,"Writing: Claire Tester");
 draw_text_centered(xx,room_height/7*6,"SFX Design: Claire Tester");

@@ -20,9 +20,11 @@ function line() constructor{
 		}
 		//advance scene or end scene
 		var i = dialog_holder.current_line;
-		if !scene_end && i < dialog_holder.last_line
+		if !scene_end {
 			load_next_text();
-		else {
+		} else {
+			show_debug_message("Index: " + string(i));
+			show_debug_message(index);
 			//release move lock
 				
 			//clear textbox

@@ -195,8 +195,6 @@ function csv_to_dialog(_filename){
 	for (var i=1; i<size; i++) {
 		var l = new line();
 		//show_debug_message(tabel[# 0, i]+ " point in question"); //show raw string value of targeted cell
-		show_debug_message(i);
-		show_debug_message(tabel[# 0,i]);
 		if (tabel[# 0, i]) != ""
 			l.index					 = real(tabel[# 0, i]);
 		if (tabel[# 1, i]) != ""

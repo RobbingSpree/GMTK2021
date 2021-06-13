@@ -13,6 +13,6 @@ dy = y;
 hover = false;
 count = 0;
 threshold = 30;
-unit = 45;
+unit = 90;
 image_speed = 0;
 

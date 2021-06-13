@@ -182,6 +182,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"TornLetter","path":"rooms/TornLetter/TornLetter.yy",},},
     {"roomId":{"name":"GameLogos","path":"rooms/GameLogos/GameLogos.yy",},},
     {"roomId":{"name":"Credits","path":"rooms/Credits/Credits.yy",},},
     {"roomId":{"name":"ExploreBedroom","path":"rooms/ExploreBedroom/ExploreBedroom.yy",},},
@@ -197,7 +198,6 @@
     {"roomId":{"name":"PuzzleRoom","path":"rooms/PuzzleRoom/PuzzleRoom.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
-    {"roomId":{"name":"TornLetter","path":"rooms/TornLetter/TornLetter.yy",},},
     {"roomId":{"name":"WiringRoom","path":"rooms/WiringRoom/WiringRoom.yy",},},
   ],
   "Folders": [

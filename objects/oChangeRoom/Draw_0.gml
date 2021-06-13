@@ -5,11 +5,11 @@ if (canMoveToAnOtherRoom) {
 	var _offHor = 16;
 	var _offVrt = 16;
 
-	if (roomRight != noone){
+	if (roomLeft != noone){
 		draw_sprite_ext(sArrow, 0, _offHor + offSet, _rh, -1, 1, 0, image_blend, image_alpha);
 	}
 
-	if (roomLeft != noone){
+	if (roomRight != noone){
 		draw_sprite_ext(sArrow, 0, room_width - _offHor - offSet, _rh, 1, 1, 0, image_blend, image_alpha);
 	}
 

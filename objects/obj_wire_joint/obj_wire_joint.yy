@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_plughead3",
-    "path": "sprites/spr_plughead3/spr_plughead3.yy",
+    "name": "spr_plugjoint1",
+    "path": "sprites/spr_plugjoint1/spr_plugjoint1.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,19 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_plughole","path":"objects/obj_plughole/obj_plughole.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "wires",
-    "path": "folders/Objects/Puzzles/wires.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_wire_plug",
+  "name": "obj_wire_joint",
   "tags": [],
   "resourceType": "GMObject",
 }

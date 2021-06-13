@@ -7,8 +7,8 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 63,
+  "bbox_left": 20,
+  "bbox_right": 38,
   "bbox_top": 23,
   "bbox_bottom": 42,
   "HTile": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3275e948-3176-4531-9cc8-db7ecac55818","path":"sprites/spr_lead2/spr_lead2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3275e948-3176-4531-9cc8-db7ecac55818","path":"sprites/spr_lead2/spr_lead2.yy",},"LayerId":{"name":"c82ca410-e175-483b-a6c8-ba9fb548fb25","path":"sprites/spr_lead2/spr_lead2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_lead2","path":"sprites/spr_lead2/spr_lead2.yy",},"resourceVersion":"1.0","name":"3275e948-3176-4531-9cc8-db7ecac55818","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3275e948-3176-4531-9cc8-db7ecac55818","path":"sprites/spr_plugjoint1/spr_plugjoint1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3275e948-3176-4531-9cc8-db7ecac55818","path":"sprites/spr_plugjoint1/spr_plugjoint1.yy",},"LayerId":{"name":"c82ca410-e175-483b-a6c8-ba9fb548fb25","path":"sprites/spr_plugjoint1/spr_plugjoint1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_plugjoint1","path":"sprites/spr_plugjoint1/spr_plugjoint1.yy",},"resourceVersion":"1.0","name":"3275e948-3176-4531-9cc8-db7ecac55818","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_lead2","path":"sprites/spr_lead2/spr_lead2.yy",},
+    "spriteId": {"name":"spr_plugjoint1","path":"sprites/spr_plugjoint1/spr_plugjoint1.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"2fbd2218-808b-40cb-adf8-2298f4c7bb28","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3275e948-3176-4531-9cc8-db7ecac55818","path":"sprites/spr_lead2/spr_lead2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"702f76ba-90bd-48f1-b3d0-58e0b1c1317f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3275e948-3176-4531-9cc8-db7ecac55818","path":"sprites/spr_plugjoint1/spr_plugjoint1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,13 +54,13 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 0,
+    "xorigin": 30,
     "yorigin": 33,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_lead2","path":"sprites/spr_lead2/spr_lead2.yy",},
+    "parent": {"name":"spr_plugjoint1","path":"sprites/spr_plugjoint1/spr_plugjoint1.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_lead2",
+    "name": "spr_plugjoint1",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -69,11 +69,11 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "wires",
-    "path": "folders/Sprites/Sprites For Puzzles/wires.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_lead2",
+  "name": "spr_plugjoint1",
   "tags": [],
   "resourceType": "GMSprite",
 }

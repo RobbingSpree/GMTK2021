@@ -103,9 +103,6 @@ function draw_textbox_text(){
 					break;
 				}
 			}
-	
-	
-	
 			space++
 			i++
 		}
@@ -145,15 +142,21 @@ function enum_to_string(index, class) {
 
 	enum actor {
 		no_one,
-		ghost,
-		you
+		you,
+		teen_boy,
+		young_woman,
+		old_man,
+		child_girl
 	}
 	
 	if class == "actor" || class == "Actor" {
 		switch (index) {
 			case actor.no_one: return "Noone"; break;
 			case actor.you: return "You"; break;
-			case actor.ghost: return "Ghost"; break;
+			case actor.teen_boy: return "Ghostly Boy"; break;
+			case actor.young_woman: return "Ghostly Lady"; break;
+			case actor.old_man: return "Ghostly Man"; break;
+			case actor.child_girl: return "Ghostly Firl"; break;
 		}
 	}
 	
@@ -219,11 +222,37 @@ function csv_to_dialog(_filename){
 function string_to_enum(str, type) { //turning csv versions of the move to the enum version to make them more readable
 	if type == "Location" || type == "location" || type == "LOCATION"
 		switch (str) {
-			case "Somewhere Dark":	return loc.void	; break;
-			case "Entryway":		return loc.entry; break;
-			case "Loungroom":		return loc.lounge; break;
-			case  "Kitchen":		return loc.kitchen; break;
-			case "Bathroom":		return loc.bath; break;
-			case  "Storage":		return loc.storage; break;
+			case "kitchen":	return ExploreKitchen; break;
+			case "lounge":	return ExploreLounge; break;
+			case "hall":	return ExploreHall; break;
+			case "bedroom":	return ExploreBedroom; break;
+			case "office":	return ExploreOffice; break;
+			case "player_select":	return ExploreHall	; break;
+			case "floor_map":	return ExploreMap; break;
+			case "front_door":	return ExploreOutside; break;
+			
 		}
+	if type == "story" || type == "Story" 
+		switch(str) {
+			case "": return story.girl;
+		}
+}
+/*
+kitchen
+lounge
+hall
+bedroom
+office
+player_select
+floor_map
+front_door
+*/
+
+function start_convo(person,line) {
+	dialog_holder.current_line = line
+	dialog_holder.convo_end = false;
+	textbox.talking = person;
+	textbox.convo_end = false;
+	textbox.fade = 0;
+	textbox.actor_arrive = true;
 }

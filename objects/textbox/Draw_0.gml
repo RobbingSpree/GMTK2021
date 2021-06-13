@@ -1,7 +1,13 @@
 //draw actor
-if talking < actor.no_one
+if talking > actor.you
 {
 	var spr = person_spr;
+	switch talking {
+		case actor.child_girl: spr = Young_girl_colour; break;
+		case actor.old_man: spr = Man_ghost_colour; break;
+		case actor.teen_boy: spr = teen_colour_second_try; break;
+		case actor.young_woman: spr = Young_woman_colour; break;
+	}
 	draw_sprite_ext(spr,posing,0,0,0.5,0.5,0,c_white,fade);
 }
 //draw_set_color(c_red);

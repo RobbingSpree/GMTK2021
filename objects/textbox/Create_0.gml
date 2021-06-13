@@ -3,7 +3,7 @@
 x1=room_width/5; //left edge of textbox
 y1=y; //top edge of textbox
 x2=room_width/5*4; //right edge of textbox
-y2=y+150; //bottom edge of textbox
+y2=y+170; //bottom edge of textbox
 x=x1; //jump to position
 y=y1; //jump to poition
 xscale = 9.375;
@@ -15,8 +15,8 @@ offy = room_height +30;
 str = "Press Space or Left Click this box to advance."; //string displayed in textbox
 draw_set_font(defont); //current font
 modifier = 0;
-margin = 30; //gap kept between text and edge of textbox in px
-new_row = 30; //gap between rows of text inside textbox
+margin = 20; //gap kept between text and edge of textbox in px
+new_row = 25; //gap between rows of text inside textbox
 cutoff = 0; //characters beteen current character and end of line
 timer = 0; //time in frames until next character is displayed
 instant = true; //flag for if the timer needs to be skipped and the whole string is displayed at once

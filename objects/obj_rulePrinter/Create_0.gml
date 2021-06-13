@@ -1,0 +1,4 @@
+/// @description Insert description here
+// You can write your code in this editor
+rules = ["There are only 10 notes in the melody, and I think the fourth note is G","The first notes are the last notes backwards","Only 3 notes are played twice and no notes are played 3 times.Low and high A are different notes.","Low A is played before high A.","The only note that's repeated is the highest note and occurs in the middle of the piece","It might start on D or it might start on F, but there is only one F eitherway.","After the highest note is finished, the next 3 notes move down and the final note goes back up.","You must play notes right next to each other exactly 4 times.","Last but certainly not least DONT touch that disgusting B key or the silly black ones!"];
+current = 0;

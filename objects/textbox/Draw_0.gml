@@ -16,7 +16,7 @@ if talking > actor.you
 
 //draw textbox
 draw_sprite_ext(dialog_box_spr,0,x1,y,xscale,yscale,0,c_white,1);
-draw_set_color(c_green);
+draw_set_color(c_black);
 draw_set_halign(fa_left);
 //draw_text(0,500,dialog_holder._script[dialog_holder.current_line].speaking);
 

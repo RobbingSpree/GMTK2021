@@ -1,5 +1,5 @@
 selectedPiece = noone;
-margin = 32;
+margin = 64;
 boardPickup = false;
 animationSpeed = 1.0;
 

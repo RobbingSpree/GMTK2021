@@ -19,6 +19,10 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"textbox","path":"objects/textbox/textbox.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":{"name":"inst_454FA840","path":"rooms/ExploreRoom/ExploreRoom.yy",},"frozen":false,"ignore":false,"inheritItemSettings":true,"x":160.0,"y":800.0,"resourceVersion":"1.0","name":"inst_454FA840","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_map","path":"objects/obj_map/obj_map.yy",},"inheritCode":true,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":{"name":"inst_2C24C2CE","path":"rooms/ExploreRoom/ExploreRoom.yy",},"frozen":false,"ignore":false,"inheritItemSettings":true,"x":672.0,"y":32.0,"resourceVersion":"1.0","name":"inst_2C24C2CE","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"collectNumber","path":"objects/obj_Ghost_puzzle_piece_collect/obj_Ghost_puzzle_piece_collect.yy",},"objectId":{"name":"obj_Ghost_puzzle_piece_collect","path":"objects/obj_Ghost_puzzle_piece_collect/obj_Ghost_puzzle_piece_collect.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"obj_Ghost_puzzle_piece_collect","path":"objects/obj_Ghost_puzzle_piece_collect/obj_Ghost_puzzle_piece_collect.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":576.0,"resourceVersion":"1.0","name":"inst_6240799","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_Ghost_puzzle_piece_collect","path":"objects/obj_Ghost_puzzle_piece_collect/obj_Ghost_puzzle_piece_collect.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":224.0,"resourceVersion":"1.0","name":"inst_71AE6A8C","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_1","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_half","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
@@ -42,6 +46,8 @@
     {"name":"inst_2C24C2CE","path":"rooms/ExploreHall/ExploreHall.yy",},
     {"name":"inst_5753A084","path":"rooms/ExploreHall/ExploreHall.yy",},
     {"name":"inst_1C5C2C0C","path":"rooms/ExploreHall/ExploreHall.yy",},
+    {"name":"inst_6240799","path":"rooms/ExploreHall/ExploreHall.yy",},
+    {"name":"inst_71AE6A8C","path":"rooms/ExploreHall/ExploreHall.yy",},
   ],
   "inheritCreationOrder": true,
   "sequenceId": null,

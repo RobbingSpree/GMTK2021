@@ -40,7 +40,7 @@ convo_end = false;
 //import script into game
 csv_to_dialog("Script.csv");
 
-puzzles_status = [0,0,0,0];
+puzzles_status = [0,1,0,0];
 
 #region puzzle setup
 //global inits

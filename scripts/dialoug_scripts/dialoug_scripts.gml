@@ -31,7 +31,7 @@ function draw_textbox_text(){
 		//text position
 		tx = x1+margin;
 		ty = y1+margin;
-
+		draw_set_font(defont);
 		//countdown to next letter
 		if cutoff < string_length(str)
 		{
@@ -57,12 +57,12 @@ function draw_textbox_text(){
 			if string_char_at(str,i) == ","
 			{
 				pause=true;
-				alarm[0] = 15;
+				alarm[0] = 5;
 			}
 			if string_char_at(str,i) == "." || string_char_at(str,i) == "?" || string_char_at(str,i) == "!"
 			{
 				pause=true;
-				alarm[0]=30;
+				alarm[0]=10;
 			}
 	
 			//goto next line
@@ -115,6 +115,7 @@ function draw_text_centered(xx,yy,str) {
 	var v = draw_get_valign();
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_center);
+	draw_set_font(defont);
 	draw_text(xx,yy,str);
 	draw_set_valign(v);
 	draw_set_halign(h);

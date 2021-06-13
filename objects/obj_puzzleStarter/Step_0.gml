@@ -8,6 +8,11 @@ if !dialog_holder.convo_end {
 		image_alpha += 0.05;
 }
 
+if dialog_holder.progress[ghost] == state.lost_forever {
+	image_alpha = 0;
+	go_puzzle = false;
+}
+
 if go_puzzle && dialog_holder.convo_end == true {
 	go_puzzle = false;
 	goto_effect(load_puzzle);

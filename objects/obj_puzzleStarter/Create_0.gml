@@ -12,6 +12,7 @@ enum state{
 	first_enter,
 	first_click,
 	second_click,
-	solved_puzzle
+	solved_puzzle,
+	lost_forever
 }
 

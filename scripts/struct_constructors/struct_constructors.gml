@@ -15,20 +15,21 @@ function line() constructor{
 		
 		
 		//check for move flag
-		if move_to != -1 
-			global.scene = move_to;
+		if move_to != -1 {
+			goto_effect(move_to,);
+		}
 		//advance scene or end scene
 		var i = dialog_holder.current_line;
 		if !scene_end && i < dialog_holder.last_line
 			load_next_text();
-		else {			
+		else {
 			//release move lock
 				
 			//clear textbox
 				with textbox {
 					convo_end = true;
 					str = "";
-					dialog_holder.current_line= -1;
+					//dialog_holder.current_line= -1;
 				}
 		}
 		//bug check

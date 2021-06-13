@@ -10,8 +10,9 @@ if leave {
 	spr = room_transition_spr_up;
 	dy -= spd;
 	global.return_to = room;
-	if dy <= room_height
+	if dy <= room_height {
 		room_goto(goto);
+	}
 }
 
 //debug

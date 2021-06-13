@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_PuzzleMoveBig.mp3",
-  "duration": 0.658061,
+  "duration": 0.396837,
   "parent": {
     "name": "Ghost jigsaw puzzle sounds",
     "path": "folders/Sounds/Ghost jigsaw puzzle sounds.yy",

@@ -23,7 +23,7 @@ if mouse_check_button_pressed(mb_left) || mouse_check_button_pressed(mb_right) {
 }
 
 if mouse_check_button(mb_left) && hover {
-	count ++
+//	count ++
 	if obj_paper_controller.focus == self 
 		if count<threshold {
 			if abs(mouse_x-dx)>10 || abs(mouse_y-dy)> 10 {
@@ -43,7 +43,7 @@ if mouse_check_button(mb_left) && hover {
 		}
 }
 if mouse_check_button(mb_right) && hover {
-	count ++
+//	count ++
 	if obj_paper_controller.focus == self 
 		if count<threshold {
 			if abs(mouse_x-dx)>10 || abs(mouse_y-dy)> 10 {
@@ -65,10 +65,10 @@ if mouse_check_button(mb_right) && hover {
 
 image_angle = ang;
 
-if abs(x-sx) <1000 
+if (abs(x-sx) <80 &&  abs(y-sy) <80 ){
 	x = sx;
-if abs(y-sy) <1000
 	y = sy;
+}
 if y == sy && x == sx { //&&ang == sa &&
 	solved = true;
 	ang = sa;

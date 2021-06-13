@@ -4,18 +4,22 @@
 if obj_paper_controller.focus == self {
 	draw_set_color(c_red);
 	gpu_set_blendmode(bm_add)
-	draw_sprite_ext(spr_triangle,0,x,y,1.1,1.1,ang,c_red,0.7);
+	//draw_sprite_ext(spr_triangle,0,x,y,1.1,1.1,ang,c_red,0.7);
+	draw_sprite_part_ext(Cursive_note_v2,0,px,py,150,150,x-80,y-80,1.1,1.1,c_red,0.7);
 	gpu_set_blendmode(bm_normal);
 	draw_set_color(c_white);
 }
 if solved {
 	draw_set_color(c_blue);
 	gpu_set_blendmode(bm_add)
-	draw_sprite_ext(spr_triangle,0,x,y,1.1,1.1,ang,c_blue,0.7);
+	//draw_sprite_ext(spr_triangle,0,x,y,1.1,1.1,ang,c_blue,0.7);
+	draw_sprite_part_ext(Cursive_note_v2,0,px,py,150,150,x-80,y-80,1.1,1.1,c_blue,0.7);
 	gpu_set_blendmode(bm_normal);
 	draw_set_color(c_white);
 }
-draw_self();
+//draw_self();
+draw_sprite_part(Cursive_note_v2,0,px,py,150,150,x-75,y-75);
+
 /*
 draw_set_color(c_red);
 draw_text(x,y,abs((ang mod 360)-sa));

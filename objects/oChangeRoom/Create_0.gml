@@ -20,7 +20,7 @@ activeRange = 64;
 offSetRange = 32;
 offSet = 0;
 
-canMoveToAnOtherRoom = false;
+canMoveToAnOtherRoom = true;
 
 //global inits
 global.ghostPuzzleArray = [];

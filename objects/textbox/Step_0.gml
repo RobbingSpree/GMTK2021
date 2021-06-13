@@ -20,16 +20,18 @@ if (mouse_within(x1,y1,x2,y2) && mouse_check_button_pressed(mb_left) || keyboard
 
 if convo_end {
 	dialog_holder.convo_end = true;
-	//gving back the move control
+	//gving back the move control & clicking the puzzle piece
 	if instance_exists(oChangeRoom) oChangeRoom.canMoveToAnOtherRoom = true;
+	if instance_exists(obj_Ghost_puzzle_piece_collect) obj_Ghost_puzzle_piece_collect.clickable = true;
 	
 	y+=5;
 	if y>offy
 		y=offy;
 } else {
 	
-	// Stop player from moving to other room
+	// Stop player from moving to other room & clicking the puzzle piece
 	if instance_exists(oChangeRoom) oChangeRoom.canMoveToAnOtherRoom = false;
+	if instance_exists(obj_Ghost_puzzle_piece_collect) obj_Ghost_puzzle_piece_collect.clickable = false;
 	
 	if y>y1
 		y-=5;

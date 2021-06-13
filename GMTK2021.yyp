@@ -53,6 +53,7 @@
     {"id":{"name":"key_d","path":"sounds/key_d/key_d.yy",},"order":5,},
     {"id":{"name":"key_d4","path":"sounds/key_d4/key_d4.yy",},"order":6,},
     {"id":{"name":"key_e","path":"sounds/key_e/key_e.yy",},"order":7,},
+    {"id":{"name":"Approach","path":"scripts/Approach/Approach.yy",},"order":3,},
     {"id":{"name":"key_f","path":"sounds/key_f/key_f.yy",},"order":8,},
     {"id":{"name":"key_f4","path":"sounds/key_f4/key_f4.yy",},"order":9,},
     {"id":{"name":"key_g","path":"sounds/key_g/key_g.yy",},"order":10,},
@@ -120,6 +121,7 @@
     {"id":{"name":"spr_plugjoint2","path":"sprites/spr_plugjoint2/spr_plugjoint2.yy",},"order":17,},
     {"id":{"name":"spr_Puzzle","path":"sprites/spr_Puzzle/spr_Puzzle.yy",},"order":18,},
     {"id":{"name":"spr_room_change_effect","path":"sprites/spr_room_change_effect/spr_room_change_effect.yy",},"order":2,},
+    {"id":{"name":"NutInits","path":"scripts/NutInits/NutInits.yy",},"order":4,},
     {"id":{"name":"spr_triangle","path":"sprites/spr_triangle/spr_triangle.yy",},"order":1,},
     {"id":{"name":"spr_triangle_arrows","path":"sprites/spr_triangle_arrows/spr_triangle_arrows.yy",},"order":2,},
     {"id":{"name":"spr_ui_ghost","path":"sprites/spr_ui_ghost/spr_ui_ghost.yy",},"order":15,},
@@ -143,6 +145,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
     {"roomId":{"name":"WiringRoom","path":"rooms/WiringRoom/WiringRoom.yy",},},
     {"roomId":{"name":"GameLogos","path":"rooms/GameLogos/GameLogos.yy",},},
     {"roomId":{"name":"Credits","path":"rooms/Credits/Credits.yy",},},
@@ -156,7 +159,6 @@
     {"roomId":{"name":"PianoPuzzle","path":"rooms/PianoPuzzle/PianoPuzzle.yy",},},
     {"roomId":{"name":"PuzzleRoom","path":"rooms/PuzzleRoom/PuzzleRoom.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
     {"roomId":{"name":"TornLetter","path":"rooms/TornLetter/TornLetter.yy",},},
   ],
   "Folders": [

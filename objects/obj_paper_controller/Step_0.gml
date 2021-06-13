@@ -8,7 +8,7 @@ if check >= check_loop && !solved{
 	with obj_torn_paper {
 		obj_paper_controller.check_count += solved
 	}
-	if check_count >= 12
+	if check_count >= 20
 		solved = true;
 }
 

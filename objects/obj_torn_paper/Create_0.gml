@@ -16,3 +16,5 @@ threshold = 30;
 unit = 90;
 image_speed = 0;
 
+px = 0;
+py = 0;

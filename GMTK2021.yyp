@@ -48,7 +48,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":2,},
     {"id":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},"order":2,},
     {"id":{"name":"TornLetter","path":"rooms/TornLetter/TornLetter.yy",},"order":3,},
-    {"id":{"name":"WiringRoom","path":"rooms/WiringRoom/WiringRoom.yy",},"order":3,},
+    {"id":{"name":"WiringRoom","path":"rooms/WiringRoom/WiringRoom.yy",},"order":4,},
     {"id":{"name":"dialoug_scripts","path":"scripts/dialoug_scripts/dialoug_scripts.yy",},"order":0,},
     {"id":{"name":"goto_effect","path":"scripts/goto_effect/goto_effect.yy",},"order":1,},
     {"id":{"name":"struct_constructors","path":"scripts/struct_constructors/struct_constructors.yy",},"order":2,},

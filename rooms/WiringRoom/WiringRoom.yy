@@ -46,8 +46,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "puzzles",
+    "path": "folders/Rooms/puzzles.yy",
   },
   "resourceVersion": "1.0",
   "name": "WiringRoom",

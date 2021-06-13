@@ -190,11 +190,13 @@ function csv_to_dialog(_filename){
 		show_debug_message("script missing");
 	var tabel = load_csv(_filename);
 	//find size of grid
-	var size = ds_grid_height(tabel);
+	var size = 149;
 	//itterate over grid
 	for (var i=1; i<size; i++) {
 		var l = new line();
 		//show_debug_message(tabel[# 0, i]+ " point in question"); //show raw string value of targeted cell
+		show_debug_message(i);
+		show_debug_message(tabel[# 0,i]);
 		if (tabel[# 0, i]) != ""
 			l.index					 = real(tabel[# 0, i]);
 		if (tabel[# 1, i]) != ""
@@ -255,4 +257,5 @@ function start_convo(person,line) {
 	textbox.convo_end = false;
 	textbox.fade = 0;
 	textbox.actor_arrive = true;
+	textbox.str = dialog_holder._script[dialog_holder.current_line].str;
 }

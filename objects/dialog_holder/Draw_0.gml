@@ -1,10 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 //show next line data
-/*
+
 if instance_exists(textbox) && textbox.convo_end == false {
 	var str = _script[current_line].scene_end;
-	
+	draw_set_color(c_yellow);
 	if str == true
 		str = "last line";
 	else
@@ -17,4 +17,5 @@ if instance_exists(textbox) && textbox.convo_end == false {
 	draw_text(30,130,str);
 	str = "string literal: " + _script[current_line].str;
 	draw_text(30,150,str);
+	draw_set_color(c_white);
 }

@@ -113,7 +113,7 @@ index,str,advance_to,speaking,emote_change_to,story_flag,scene_end,move_to,locat
 110,I think it's time for you to go now. It's ok I will let Mummy know. You did so well.,111,you,,puzzle_solved,,,kitchen,,
 111,Thank you. Let Mummy and the others know! ,,child_girl,,puzzle_solved,TRUE,,kitchen,,
 112,Enter Office,113,no_one,,enter_office_first,,office,office,,
-113,"Woof, this place is a bit of a mess. I thought they were setting up this place to show it off. ",114,you,,enter_office_first,,,office,,
+113,"Woof, this place is a bit of a mess. I thought they were setting up this place to show it off. ",,you,,enter_office_first,TRUE,,office,,
 114,Locate the notes,115,no_one,,enter_office_first,,,office,,
 115,"Has no one thought to come in and clear the place up. There is so much lying around in this room. Files everywhere, birthday and mothers day cards. What are all these notes lying around?",116,you,,enter_office_first,,,office,,
 116,Get out of my office! This is my work!,117,young_woman,,enter_office_first,,,office,,

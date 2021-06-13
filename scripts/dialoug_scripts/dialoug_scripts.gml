@@ -156,7 +156,7 @@ function enum_to_string(index, class) {
 			case actor.teen_boy: return "Ghostly Boy"; break;
 			case actor.young_woman: return "Ghostly Lady"; break;
 			case actor.old_man: return "Ghostly Man"; break;
-			case actor.child_girl: return "Ghostly Firl"; break;
+			case actor.child_girl: return "Ghostly Girl"; break;
 		}
 	}
 	

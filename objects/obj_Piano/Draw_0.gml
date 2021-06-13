@@ -6,7 +6,7 @@ var qc = ds_queue_create();
 ds_queue_copy(qc,lastTenNotes);
 for (var i=0; i<size; i++) {
 	var val = ds_queue_dequeue(qc);
-	draw_text(20+i*20,20,val)
+	draw_text(90+i*20,20,val)
 }
 
 

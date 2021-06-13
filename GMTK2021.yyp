@@ -83,7 +83,6 @@
     {"id":{"name":"Kitchen_dining_colour","path":"sprites/Kitchen_dining_colour/Kitchen_dining_colour.yy",},"order":7,},
     {"id":{"name":"kitchen_dining_screentone","path":"sprites/kitchen_dining_screentone/kitchen_dining_screentone.yy",},"order":8,},
     {"id":{"name":"lounge_colour","path":"sprites/lounge_colour/lounge_colour.yy",},"order":9,},
-    {"id":{"name":"testuwang","path":"rooms/testuwang/testuwang.yy",},"order":5,},
     {"id":{"name":"Lounge_Piano","path":"sprites/Lounge_Piano/Lounge_Piano.yy",},"order":10,},
     {"id":{"name":"Lounge_piano_screentone","path":"sprites/Lounge_piano_screentone/Lounge_piano_screentone.yy",},"order":11,},
     {"id":{"name":"Office","path":"sprites/Office/Office.yy",},"order":12,},
@@ -147,7 +146,6 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"testuwang","path":"rooms/testuwang/testuwang.yy",},},
     {"roomId":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
     {"roomId":{"name":"WiringRoom","path":"rooms/WiringRoom/WiringRoom.yy",},},
     {"roomId":{"name":"GameLogos","path":"rooms/GameLogos/GameLogos.yy",},},

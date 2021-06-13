@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Change room",
+    "path": "folders/Objects/Change room.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_room_change_effect",

@@ -6,7 +6,7 @@ image_alpha += 0.005;
 if(image_alpha >= 0.8)
 {
 	if mouse_check_button_released(mb_left) && only_once == false{
-		goto_effect(ExploreRoom);
+		goto_effect(ExploreHall);
 		only_once = true;
 	}
 	if keyboard_check_released(vk_space) && only_once == false {

@@ -1,9 +1,12 @@
 {
   "isDnd": false,
   "volume": 1.0,
-  "parentRoom": null,
+  "parentRoom": {
+    "name": "GameLogos",
+    "path": "rooms/GameLogos/GameLogos.yy",
+  },
   "views": [
-    {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
+    {"inherit":false,"visible":true,"xview":0,"yview":0,"wview":1000,"hview":1000,"xport":0,"yport":0,"wport":750,"hport":750,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
@@ -15,18 +18,6 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"textbox","path":"objects/textbox/textbox.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":800.0,"resourceVersion":"1.0","name":"inst_454FA840","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[
-            {"propertyId":{"name":"load_puzzle","path":"objects/obj_puzzleStarter/obj_puzzleStarter.yy",},"objectId":{"name":"obj_puzzleStarter","path":"objects/obj_puzzleStarter/obj_puzzleStarter.yy",},"value":"TornLetter","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"obj_puzzleStarter","path":"objects/obj_puzzleStarter/obj_puzzleStarter.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":128.0,"resourceVersion":"1.0","name":"inst_6A0E8EC0","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[
-            {"propertyId":{"name":"load_puzzle","path":"objects/obj_puzzleStarter/obj_puzzleStarter.yy",},"objectId":{"name":"obj_puzzleStarter","path":"objects/obj_puzzleStarter/obj_puzzleStarter.yy",},"value":"PianoPuzzle","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"obj_puzzleStarter","path":"objects/obj_puzzleStarter/obj_puzzleStarter.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":832.0,"y":288.0,"resourceVersion":"1.0","name":"inst_CE58F4F","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[
-            {"propertyId":{"name":"load_puzzle","path":"objects/obj_puzzleStarter/obj_puzzleStarter.yy",},"objectId":{"name":"obj_puzzleStarter","path":"objects/obj_puzzleStarter/obj_puzzleStarter.yy",},"value":"GhostPuzzleRoom","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"obj_puzzleStarter","path":"objects/obj_puzzleStarter/obj_puzzleStarter.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.0,"y":64.0,"resourceVersion":"1.0","name":"inst_6967381D","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[
-            {"propertyId":{"name":"load_puzzle","path":"objects/obj_puzzleStarter/obj_puzzleStarter.yy",},"objectId":{"name":"obj_puzzleStarter","path":"objects/obj_puzzleStarter/obj_puzzleStarter.yy",},"value":"WiringRoom","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-          ],"isDnd":false,"objectId":{"name":"obj_puzzleStarter","path":"objects/obj_puzzleStarter/obj_puzzleStarter.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":512.0,"resourceVersion":"1.0","name":"inst_5A4E19FF","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_1","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_half","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
@@ -37,10 +28,6 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_454FA840","path":"rooms/ExploreRoom/ExploreRoom.yy",},
-    {"name":"inst_6A0E8EC0","path":"rooms/ExploreRoom/ExploreRoom.yy",},
-    {"name":"inst_CE58F4F","path":"rooms/ExploreRoom/ExploreRoom.yy",},
-    {"name":"inst_6967381D","path":"rooms/ExploreRoom/ExploreRoom.yy",},
-    {"name":"inst_5A4E19FF","path":"rooms/ExploreRoom/ExploreRoom.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -51,8 +38,8 @@
     "persistent": false,
   },
   "viewSettings": {
-    "inheritViewSettings": false,
-    "enableViews": false,
+    "inheritViewSettings": true,
+    "enableViews": true,
     "clearViewBackground": false,
     "clearDisplayBuffer": true,
   },
@@ -64,8 +51,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "explore rooms",
+    "path": "folders/Rooms/explore rooms.yy",
   },
   "resourceVersion": "1.0",
   "name": "ExploreRoom",

@@ -1,9 +1,12 @@
 {
   "isDnd": false,
   "volume": 1.0,
-  "parentRoom": null,
+  "parentRoom": {
+    "name": "GameLogos",
+    "path": "rooms/GameLogos/GameLogos.yy",
+  },
   "views": [
-    {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
+    {"inherit":true,"visible":true,"xview":0,"yview":0,"wview":1000,"hview":1000,"xport":0,"yport":0,"wport":750,"hport":750,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
@@ -23,14 +26,14 @@
   "inheritCreationOrder": false,
   "sequenceId": null,
   "roomSettings": {
-    "inheritRoomSettings": false,
-    "Width": 1366,
-    "Height": 768,
+    "inheritRoomSettings": true,
+    "Width": 1000,
+    "Height": 1000,
     "persistent": false,
   },
   "viewSettings": {
-    "inheritViewSettings": false,
-    "enableViews": false,
+    "inheritViewSettings": true,
+    "enableViews": true,
     "clearViewBackground": false,
     "clearDisplayBuffer": true,
   },

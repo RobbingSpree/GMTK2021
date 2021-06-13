@@ -5,3 +5,4 @@ if(follow_mouse == true){
 } else{
 	follow_mouse = true;
 }
+

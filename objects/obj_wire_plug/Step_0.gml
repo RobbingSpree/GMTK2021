@@ -11,7 +11,8 @@ if (abs(x-holetargetx) <20 && abs(y-holetargety) <20 && follow_mouse == false &&
 	solved = true;
 	speed = 0;
 	audio_play_sound(sfx_click, 0, 0);
-	if(sprite_index == spr_plughead3){
+	light.image_index = 2;
+	if(sprite_index == spr_plughead3 || sprite_index == spr_plughead4){
 		sprite_index = spr_plugin1;	
 	}else {
 		sprite_index = spr_plugin2;

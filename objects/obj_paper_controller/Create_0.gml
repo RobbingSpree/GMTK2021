@@ -16,8 +16,8 @@ solved_x = [0,1,2,3,4,0,1,2,3,4,0,1,2,3,4,0,1,2,3,4];
 solved_y = [0,0,0,0,0,1,1,1,1,1,2,2,2,2,2,3,3,3,3,3];
 
 for (var i=0; i<20; i++) {
-	var xx = irandom_range(10,17)*50;
-	var yy = irandom_range(3,17)*50;
+	var xx = irandom_range(3,17)*50;
+	var yy = irandom_range(2,5)*50;
 	var piece = instance_create_layer(xx,yy,"Instances",obj_torn_paper);
 	piece.ang = irandom(4)*90;
 	piece.index = i;

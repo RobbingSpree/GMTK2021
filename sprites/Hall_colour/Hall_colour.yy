@@ -26,6 +26,7 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"3faec908-1b87-4fc9-81f2-6bda3bb32e20","path":"sprites/Hall_colour/Hall_colour.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"3faec908-1b87-4fc9-81f2-6bda3bb32e20","path":"sprites/Hall_colour/Hall_colour.yy",},"LayerId":{"name":"571d7c66-bebf-447d-929b-75b0e093b629","path":"sprites/Hall_colour/Hall_colour.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"3faec908-1b87-4fc9-81f2-6bda3bb32e20","path":"sprites/Hall_colour/Hall_colour.yy",},"LayerId":{"name":"95a1d2de-e1a8-4cff-87f8-5ccaa51ca512","path":"sprites/Hall_colour/Hall_colour.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"Hall_colour","path":"sprites/Hall_colour/Hall_colour.yy",},"resourceVersion":"1.0","name":"3faec908-1b87-4fc9-81f2-6bda3bb32e20","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {

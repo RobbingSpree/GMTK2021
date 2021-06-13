@@ -145,7 +145,11 @@ function enum_to_string(index, class) {
 
 	enum actor {
 		no_one,
-		ghost,
+		ghost_girl,
+		ghost_boy,
+		ghost_teen,
+		ghost_lady,
+		ghost_man,
 		you
 	}
 	
@@ -153,7 +157,11 @@ function enum_to_string(index, class) {
 		switch (index) {
 			case actor.no_one: return "Noone"; break;
 			case actor.you: return "You"; break;
-			case actor.ghost: return "Ghost"; break;
+			case actor.ghost_girl: return "Ghostly Girl"; break;
+			case actor.ghost_boy: return "Ghostly Boy"; break;
+			case actor.ghost_lady: return "Ghostly Lady"; break;
+			case actor.ghost_teen: return "Ghostly Teen"; break;
+			case actor.ghost_man: return "Ghostly Man"; break;
 		}
 	}
 	
@@ -226,4 +234,8 @@ function string_to_enum(str, type) { //turning csv versions of the move to the e
 			case "Bathroom":		return loc.bath; break;
 			case  "Storage":		return loc.storage; break;
 		}
+}
+
+function start_convo(person) {
+	
 }

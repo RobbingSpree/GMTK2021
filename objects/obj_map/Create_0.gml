@@ -104,14 +104,6 @@ office_instance.roomId = ExploreOffice;
 kitchen_instance.sprite_index = map_minikitch;
 kitchen_instance.roomId = ExploreKitchen;
 
-/// @DnDAction : YoYo Games.Instances.Create_Instance
-/// @DnDVersion : 1
-/// @DnDHash : 37EA4BB9
-/// @DnDArgument : "var" "rmchanger"
-/// @DnDArgument : "objectid" "oChangeRoom"
-/// @DnDSaveInfo : "objectid" "oChangeRoom"
-rmchanger = instance_create_layer(0, 0, "Instances", oChangeRoom);
-
 /// @DnDAction : YoYo Games.Switch.Switch
 /// @DnDVersion : 1
 /// @DnDHash : 2EEDD20F
@@ -125,14 +117,6 @@ switch(l2EEDD20F_0)
 	/// @DnDParent : 2EEDD20F
 	/// @DnDArgument : "const" "ExploreOffice"
 	case ExploreOffice:
-		/// @DnDAction : YoYo Games.Common.Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 5022FC7C
-		/// @DnDParent : 59B68E3F
-		/// @DnDArgument : "expr" "ExploreHall"
-		/// @DnDArgument : "var" "rmchanger.roomDown"
-		rmchanger.roomDown = ExploreHall;
-	
 		/// @DnDAction : YoYo Games.Common.Function_Call
 		/// @DnDVersion : 1
 		/// @DnDHash : 3EDFF6FC
@@ -148,18 +132,6 @@ switch(l2EEDD20F_0)
 	/// @DnDParent : 2EEDD20F
 	/// @DnDArgument : "const" "ExploreLounge"
 	case ExploreLounge:
-		/// @DnDAction : YoYo Games.Common.Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 151610A6
-		/// @DnDInput : 2
-		/// @DnDParent : 402D00E6
-		/// @DnDArgument : "expr" "ExploreHall"
-		/// @DnDArgument : "expr_1" "ExploreKitchen"
-		/// @DnDArgument : "var" "rmchanger.roomDown"
-		/// @DnDArgument : "var_1" "rmchanger.roomLeft"
-		rmchanger.roomDown = ExploreHall;
-		rmchanger.roomLeft = ExploreKitchen;
-	
 		/// @DnDAction : YoYo Games.Common.Function_Call
 		/// @DnDVersion : 1
 		/// @DnDHash : 68938044
@@ -175,18 +147,6 @@ switch(l2EEDD20F_0)
 	/// @DnDParent : 2EEDD20F
 	/// @DnDArgument : "const" "ExploreHall"
 	case ExploreHall:
-		/// @DnDAction : YoYo Games.Common.Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 7B6F6B7C
-		/// @DnDInput : 2
-		/// @DnDParent : 7E88B833
-		/// @DnDArgument : "expr" "ExploreOffice"
-		/// @DnDArgument : "expr_1" "ExploreLounge"
-		/// @DnDArgument : "var" "rmchanger.roomRight"
-		/// @DnDArgument : "var_1" "rmchanger.roomUp"
-		rmchanger.roomRight = ExploreOffice;
-		rmchanger.roomUp = ExploreLounge;
-	
 		/// @DnDAction : YoYo Games.Common.Function_Call
 		/// @DnDVersion : 1
 		/// @DnDHash : 758CAFD4
@@ -202,14 +162,6 @@ switch(l2EEDD20F_0)
 	/// @DnDParent : 2EEDD20F
 	/// @DnDArgument : "const" "ExploreKitchen"
 	case ExploreKitchen:
-		/// @DnDAction : YoYo Games.Common.Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 264DF4C3
-		/// @DnDParent : 749FCC30
-		/// @DnDArgument : "expr" "ExploreLounge"
-		/// @DnDArgument : "var" "rmchanger.roomLeft"
-		rmchanger.roomLeft = ExploreLounge;
-	
 		/// @DnDAction : YoYo Games.Common.Function_Call
 		/// @DnDVersion : 1
 		/// @DnDHash : 0645B7F9

@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 0C2BEE95
-/// @DnDArgument : "code" "/// @description Insert description here$(13_10)// You can write your code in this editor$(13_10)ang = 0;$(13_10)index = 0;$(13_10)moved = false;$(13_10)spin = false;$(13_10)sx = 0;$(13_10)sy = 0;$(13_10)sa = 0;$(13_10)solved = false;$(13_10)dx = x;$(13_10)dy = y;$(13_10)originx = dx$(13_10)originy = dy$(13_10)follow_mouse = false;$(13_10)image_speed = 0;"
+/// @DnDArgument : "code" "/// @description Insert description here$(13_10)// You can write your code in this editor$(13_10)ang = 0;$(13_10)index = 0;$(13_10)moved = false;$(13_10)spin = false;$(13_10)sx = 0;$(13_10)sy = 0;$(13_10)sa = 0;$(13_10)solved = false;$(13_10)dx = x;$(13_10)dy = y;$(13_10)originx = dx$(13_10)originy = dy$(13_10)follow_mouse = false;$(13_10)holetargetx = 0;$(13_10)holetargety = 0;$(13_10)image_speed = 0;$(13_10)heads = ds_list_create();$(13_10)ds_list_add(heads, spr_plughead1, spr_plughead2, spr_plughead3);$(13_10)sprite_index = ds_list_find_value(heads,global.player_index);"
 /// @description Insert description here
 // You can write your code in this editor
 ang = 0;
@@ -17,7 +17,12 @@ dy = y;
 originx = dx
 originy = dy
 follow_mouse = false;
+holetargetx = 0;
+holetargety = 0;
 image_speed = 0;
+heads = ds_list_create();
+ds_list_add(heads, spr_plughead1, spr_plughead2, spr_plughead3);
+sprite_index = ds_list_find_value(heads,global.player_index);
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

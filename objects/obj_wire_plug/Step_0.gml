@@ -5,11 +5,17 @@ if (abs(x-originx) <10 && abs(y-originy) <10){
 	x = originx;
 }
 
-if (abs(x-hole.x) <10 && abs(y-hole.y) <10){
-	y = hole.x;
-	x = hole.y;
+if (abs(x-holetargetx) <20 && abs(y-holetargety) <20 && follow_mouse == false && solved == false){
+	x = holetargetx;
+	y = holetargety;
 	solved = true;
+	speed = 0;
 	audio_play_sound(sfx_click, 0, 0);
+	if(sprite_index == spr_plughead3){
+		sprite_index = spr_plugin1;	
+	}else {
+		sprite_index = spr_plugin2;
+	}
 }
 
 
@@ -22,25 +28,27 @@ if(follow_mouse == true)
 
 else
 {
-	if(!(x == originx))
-	{
-		if(!(y == originy))
+	if (!solved){
+		if(!(x == originx))
 		{
-			direction = point_direction(x, y, originx, originy);
-		
-			speed += 0.4;
-		
-			if(speed > 11)
+			if(!(y == originy))
 			{
 				direction = point_direction(x, y, originx, originy);
+		
+				speed += 0.4;
+		
+				if(speed > 11)
+				{
+					direction = point_direction(x, y, originx, originy);
 			
-				speed = 11;
+					speed = 11;
+				}
 			}
 		}
-	}
 
-	else
-	{
-		speed = 0;
+		else
+		{
+			speed = 0;
+		}
 	}
 }

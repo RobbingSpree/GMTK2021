@@ -16,7 +16,7 @@ office_instance = instance_create_layer(897, 219, "Instances_1", obj_hoverpoint)
 
 lounge_instance = instance_create_layer(847, 26, "Instances_1", obj_hoverpoint);
 
-kitchen_instance = instance_create_layer(788, 43, "Instances_1", obj_hoverpoint);
+//kitchen_instance = instance_create_layer(788, 43, "Instances_1", obj_hoverpoint);
 
 sprite_index = map_minimap;
 hallway_instance.sprite_index = map_minihall;
@@ -25,8 +25,8 @@ lounge_instance.sprite_index = map_minilounge;
 hallway_instance.roomId = ExploreHall;
 lounge_instance.roomId = ExploreLounge;
 office_instance.roomId = ExploreOffice;
-kitchen_instance.sprite_index = map_minikitch;
-kitchen_instance.roomId = ExploreKitchen;
+//kitchen_instance.sprite_index = map_minikitch;
+//kitchen_instance.roomId = ExploreKitchen;
 
 var l2EEDD20F_0 = room;
 switch(l2EEDD20F_0)
@@ -43,7 +43,7 @@ switch(l2EEDD20F_0)
 		instance_destroy(hallway_instance);
 		break;
 
-	case ExploreKitchen:
-		instance_destroy(kitchen_instance);
-		break;
+	//case ExploreKitchen:
+		//instance_destroy(kitchen_instance);
+		//break;
 }

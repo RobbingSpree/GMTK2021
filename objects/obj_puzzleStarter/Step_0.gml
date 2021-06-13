@@ -8,7 +8,7 @@ if !dialog_holder.convo_end {
 		image_alpha += 0.05;
 }
 
-if dialog_holder.progress[ghost] == state.lost_forever {
+if dialog_holder.progress[ghost] >= state.solved_puzzle {
 	image_alpha = 0;
 	go_puzzle = false;
 }

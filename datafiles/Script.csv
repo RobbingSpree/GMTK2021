@@ -7,7 +7,7 @@ index,str,advance_to,speaking,emote_change_to,story_flag,scene_end,move_to,locat
 4,"I started chatting with a customer who was buying furniture to stage a house and she said that the house she was selling was a challenge as everyone thought it was haunted. I said I would come give it a look, help release any spirits who might be trapped there.",5,you,,Intro_sequence,,,front_door,,
 5,She gave me a floor map of the house as some of the rooms still have wet paint and she's asked me not to go into them.,6,you,,first_open_map,,floor_map,floor_map,,
 6,"I did a little bit of research, I mean I googled the street address and saw nothing unsusal about the house, a few people have died in the there but it wasn't news articles about grisly murders.",7,you,,first_open_map,,,floor_map,,could split the first bit off on its own for comedic effect
-7,Door opens and you enter the house,8,no_one,,,TRUE,hall,,,
+7,You open the door and enter the house,8,no_one,,,TRUE,hall,,,
 8,Enter Lounge,9,no_one,,enter_lounge_first,,,lounge,After first entrance narrative starts at ,
 9,Nice Lounge. This room has so much potential.,10,you,,enter_lounge_first,,,lounge,,
 10,I can hear a tune coming from somewhere . . . is the radio on?,11,you,,enter_lounge_first,TRUE,,lounge,,

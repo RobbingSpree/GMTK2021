@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sChangeRoom",
-    "path": "sprites/sChangeRoom/sChangeRoom.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

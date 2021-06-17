@@ -17,13 +17,13 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"textbox","path":"objects/textbox/textbox.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":10.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":{"name":"inst_454FA840","path":"rooms/ExploreRoom/ExploreRoom.yy",},"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":800.0,"resourceVersion":"1.0","name":"inst_454FA840","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"collectNumber","path":"objects/obj_Ghost_puzzle_piece_collect/obj_Ghost_puzzle_piece_collect.yy",},"objectId":{"name":"obj_Ghost_puzzle_piece_collect","path":"objects/obj_Ghost_puzzle_piece_collect/obj_Ghost_puzzle_piece_collect.yy",},"value":"6","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_Ghost_puzzle_piece_collect","path":"objects/obj_Ghost_puzzle_piece_collect/obj_Ghost_puzzle_piece_collect.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":576.0,"resourceVersion":"1.0","name":"inst_6E088A06","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"collectNumber","path":"objects/obj_Ghost_puzzle_piece_collect/obj_Ghost_puzzle_piece_collect.yy",},"objectId":{"name":"obj_Ghost_puzzle_piece_collect","path":"objects/obj_Ghost_puzzle_piece_collect/obj_Ghost_puzzle_piece_collect.yy",},"value":"7","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_Ghost_puzzle_piece_collect","path":"objects/obj_Ghost_puzzle_piece_collect/obj_Ghost_puzzle_piece_collect.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":704.0,"resourceVersion":"1.0","name":"inst_76BC72BF","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"textbox","path":"objects/textbox/textbox.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_4CE8168B","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_1","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_map","path":"objects/obj_map/obj_map.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":736.0,"y":32.0,"resourceVersion":"1.0","name":"inst_11E000A8","tags":[],"resourceType":"GMRInstance",},
@@ -43,11 +43,11 @@
   "creationCodeFile": "${project_dir}/rooms/ExploreRoom/RoomCreationCode.gml",
   "inheritCode": true,
   "instanceCreationOrder": [
-    {"name":"inst_454FA840","path":"rooms/ExploreOffice/ExploreOffice.yy",},
     {"name":"inst_5E703505","path":"rooms/ExploreOffice/ExploreOffice.yy",},
     {"name":"inst_11E000A8","path":"rooms/ExploreOffice/ExploreOffice.yy",},
     {"name":"inst_6E088A06","path":"rooms/ExploreOffice/ExploreOffice.yy",},
     {"name":"inst_76BC72BF","path":"rooms/ExploreOffice/ExploreOffice.yy",},
+    {"name":"inst_4CE8168B","path":"rooms/ExploreOffice/ExploreOffice.yy",},
   ],
   "inheritCreationOrder": true,
   "sequenceId": null,

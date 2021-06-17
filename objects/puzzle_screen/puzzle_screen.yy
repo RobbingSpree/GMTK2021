@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "bckgr_Puzzle",
-    "path": "sprites/bckgr_Puzzle/bckgr_Puzzle.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

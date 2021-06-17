@@ -4,7 +4,7 @@ music = spectral_connections_;
 current_track = noone;
 last_track = noone;
 snd = noone;
-music_volume = 1;
+music_volume = 0;
 
 change_music = true;
 play_sfx = false;

@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_room_change_effect",
-    "path": "sprites/spr_room_change_effect/spr_room_change_effect.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

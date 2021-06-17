@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "dialog_box_spr",
-    "path": "sprites/dialog_box_spr/dialog_box_spr.yy",
+    "name": "Textbox_bg_object",
+    "path": "sprites/Textbox_bg_object/Textbox_bg_object.yy",
   },
   "solid": false,
   "visible": true,

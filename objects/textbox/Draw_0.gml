@@ -1,30 +1,21 @@
-//draw actor
-if talking > actor.you
-{
-	var spr = person_spr;
-	switch dialog_holder._script[dialog_holder.current_line].speaking {
-		case "child_girl": spr = Young_girl_colour; break;
-		case "old_man": spr = Man_ghost_colour; break;
-		case "teen_boy": spr = teen_colour_second_try; break;
-		case "young_woman": spr = Young_woman_colour; break;
+
+draw_self();
+if talking {
+	draw_text_ext(xx,yy,str,line_height,line_width);
+	if talking_to != noone {
+		//draw ghost sparite
+		var spr = Man_ghost_colour;
+		var mouth = mouth_closed_feminine;
+		switch talking_to {
+			case actor.child_girl: spr = Young_girl_colour; mouth = mouth_closed_feminine; break;
+			case actor.old_man: spr = Man_ghost_colour; mouth = mouth_closed_masculine; break;
+			case actor.teen_boy: spr = teen_colour_second_try; mouth = mouth_closed_masculine; break;
+			case actor.young_woman: spr = Young_woman_colour; mouth = mouth_closed_feminine; break;			
+		}
+		draw_set_alpha(ghost_alpha);
+		draw_sprite(spr,0,0,0);
+		draw_sprite(mouth,0,480,470);
+		draw_set_alpha(1);
 	}
-	draw_sprite_ext(spr,posing,0,0,1,1,0,c_white,fade);
+	//draw_text(20,20,full_str);
 }
-//draw_set_color(c_red);
-//draw_text(20,20,dcount);
-//draw_set_color(c_white);
-
-//draw textbox
-draw_sprite_ext(dialog_box_spr,0,x1,y,xscale,yscale,0,c_white,1);
-draw_set_color(c_black);
-draw_set_halign(fa_left);
-//draw_text(0,500,dialog_holder._script[dialog_holder.current_line].speaking);
-
-if convo_end == false
-	draw_textbox_text();
-
-draw_set_color(c_white);
-draw_set_font(-1);
-
-//draw_text(20,20,x1);
-//draw_text(20,40,x2);

@@ -1,4 +1,4 @@
-if !(clicked){
+if !(clicked) && dialog_holder.convo_end{
 	if (clickable){
 		var _ds = global.ghostPuzzleArray[collectNumber];
 		_ds[? "activated"] = true;

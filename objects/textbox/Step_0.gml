@@ -1,54 +1,43 @@
+if mouse_check_button_pressed(mb_left) || keyboard_check_pressed(vk_space) {
 
-
-if (mouse_within(x1,y1,x2,y2) && mouse_check_button_pressed(mb_left) || keyboard_check_pressed(vk_space)) && !convo_end 
-{
-	if cutoff >= string_length(str)-1 
-	{
-			cutoff =0; //number of characters to not draw at end of string if still animating text appearing
-			instant = false; //reset flag so next line animates if this one was skipped
-			if dialog_holder.current_line < dialog_holder.last_line
-				dialog_holder._script[dialog_holder.current_line].next();
-			else {
-				convo_end = true;
-				str = "";
-			}
-		} else {
-			instant = false;
-			cutoff = string_length(str);
-		}
-}
-
-if convo_end {
-	dialog_holder.convo_end = true;
-	actor_leave = true;
-	//gving back the move control
-	if instance_exists(obj_map) obj_map.canMoveToAnOtherRoom = true;
-	if instance_exists(obj_Ghost_puzzle_piece_collect) obj_Ghost_puzzle_piece_collect.clickable = true;
-	
-	y+=5;
-	if y>offy
-		y=offy;
-} else {
-	
-	// Stop player from moving to other room
-	if instance_exists(obj_map) obj_map.canMoveToAnOtherRoom = false;
-	
-	if y>y1
-		y-=5;
-}
-
-//actor change
-if actor_arrive && fade < 1
-{
-	fade+= 0.05;
-	if fade == 1
-		actor_arrive = false;
-}
-if actor_leave && fade > 0
-{
-	fade-= 0.05;
-	if fade == 0
-	{
-		actor_leave = false;
+	if convo_end {
+		talking = false;
 	}
+	if room_change {
+		var destination = dialog_holder._script[dialog_holder.current_line].move_to;
+		goto_effect(destination);
+		room_change = false;
+	}
+
+	if talking {
+		if !typing || instant { //start typing
+			dialog_holder.current_line = dialog_holder._script[dialog_holder.current_line+1].advance_to;
+			full_str = dialog_holder._script[dialog_holder.current_line].str;
+			str = "";
+			typing  = true;
+			instant = false; //set to a global value to get an always instant textbox from settings
+			cutoff = 0;
+			len = string_length(full_str);
+			alarm[0] = delay;
+		} else { //finish typing instantly but don't advance text
+			str = full_str;
+			typing = false;
+			//check if this line is the last in convo
+			if dialog_holder._script[dialog_holder.current_line].scene_end {
+				convo_end = true;
+			}
+			if dialog_holder._script[dialog_holder.current_line].move_to != -1{
+				room_change = true;
+			}
+		}
+	}
+}
+
+if !talking {
+	//fade textbox spr out
+	if image_alpha > 0
+		image_alpha -= 0.05;
+} else {
+	if image_alpha < 1
+		image_alpha += 0.05;
 }

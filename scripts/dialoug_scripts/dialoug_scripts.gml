@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function draw_textbox_text(){
+function draw_textbox_text(str, x1, y1, instant, cutoff, timer, pause, modifier){
 	
 	if str != "" || instant
 	{
@@ -21,6 +21,8 @@ function draw_textbox_text(){
 		//draw the text
 		//variables
 		// adjust based on font used
+		var margin = 20;
+		var new_row = 25;
 		var charwidth = 13; //width of a single character, use a monospaced font
 		var line_end  = 43; //number of characters that can fit in a single line
 		var line = 0; //index for how many lines in the textbox the carrat is up to
@@ -29,8 +31,8 @@ function draw_textbox_text(){
 		var delay = 3; //frames between drawing the next character, small number = quicker text appearance
 
 		//text position
-		tx = x1+margin;
-		ty = y1+margin;
+		var tx = x1+margin;
+		var ty = y1+margin;
 		draw_set_font(defont);
 		//countdown to next letter
 		if cutoff < string_length(str)
@@ -49,7 +51,7 @@ function draw_textbox_text(){
 			//check for modifier
 			if string_char_at(str,i) =="/"
 			{
-				modifier = real(string_char_at(str,i+1))
+				textbox.modifier = real(string_char_at(str,i+1))
 				i++
 				i++
 			}
@@ -106,7 +108,10 @@ function draw_textbox_text(){
 			space++
 			i++
 		}
-	} else draw_text_ext(x1+margin,y1+margin,str,new_row,box_wid);
+	} else {
+		draw_text(x1+margin,y1+margin,str);
+		draw_text(20,20,str);
+	}
 
 }
 
@@ -231,11 +236,6 @@ function string_to_enum(str, type) { //turning csv versions of the move to the e
 			case "player_select":	return ExploreHall	; break;
 			case "floor_map":	return ExploreMap; break;
 			case "front_door":	return ExploreOutside; break;
-			
-		}
-	if type == "story" || type == "Story" 
-		switch(str) {
-			case "": return story.girl;
 		}
 }
 /*
@@ -252,9 +252,9 @@ front_door
 function start_convo(person,line) {
 	dialog_holder.current_line = line
 	dialog_holder.convo_end = false;
-	textbox.talking = person;
+	textbox.talking = true;
+	textbox.talking_to = person;
 	textbox.convo_end = false;
-	textbox.fade = 0;
-	textbox.actor_arrive = true;
+	textbox.actor_toggle = true;
 	textbox.str = dialog_holder._script[dialog_holder.current_line].str;
 }

@@ -12,7 +12,10 @@ if(win == 0)
 		if(i == 3)
 		{
 			win = 1;
-		
+			if !layer_exists(WIN_EFFECT_LAYER){
+				layer_create(-300, WIN_EFFECT_LAYER);
+			}
+			instance_create_layer(0,0,WIN_EFFECT_LAYER,obj_Ghost_puzzle_ui);
 			audio_play_sound(sfx_win, 0, 0);
 		}
 	}

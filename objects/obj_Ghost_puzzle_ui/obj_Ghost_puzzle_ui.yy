@@ -23,12 +23,13 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Ghost Puzzle",
-    "path": "folders/Objects/Puzzles/Ghost Puzzle.yy",
+    "name": "Puzzle Solved Effect",
+    "path": "folders/Objects/Puzzle Solved Effect.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_Ghost_puzzle_ui",

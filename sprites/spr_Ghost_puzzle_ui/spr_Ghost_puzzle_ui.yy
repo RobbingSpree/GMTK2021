@@ -26,6 +26,7 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"0e06513b-9b26-46fa-b847-80e6ab2dc00c","path":"sprites/spr_Ghost_puzzle_ui/spr_Ghost_puzzle_ui.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"0e06513b-9b26-46fa-b847-80e6ab2dc00c","path":"sprites/spr_Ghost_puzzle_ui/spr_Ghost_puzzle_ui.yy",},"LayerId":{"name":"f605485c-7e6c-4cc7-8962-7edcb72de992","path":"sprites/spr_Ghost_puzzle_ui/spr_Ghost_puzzle_ui.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"0e06513b-9b26-46fa-b847-80e6ab2dc00c","path":"sprites/spr_Ghost_puzzle_ui/spr_Ghost_puzzle_ui.yy",},"LayerId":{"name":"808f930b-f662-4174-a30b-7ba7e65b3d42","path":"sprites/spr_Ghost_puzzle_ui/spr_Ghost_puzzle_ui.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_Ghost_puzzle_ui","path":"sprites/spr_Ghost_puzzle_ui/spr_Ghost_puzzle_ui.yy",},"resourceVersion":"1.0","name":"0e06513b-9b26-46fa-b847-80e6ab2dc00c","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -66,11 +67,12 @@
   },
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f605485c-7e6c-4cc7-8962-7edcb72de992","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"808f930b-f662-4174-a30b-7ba7e65b3d42","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Ghost Puzzle",
-    "path": "folders/Sprites/Sprites For Puzzles/Ghost Puzzle.yy",
+    "name": "win",
+    "path": "folders/Sprites/UI and BG/win.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_Ghost_puzzle_ui",
